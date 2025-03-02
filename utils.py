@@ -14,7 +14,7 @@ def load_train_config(config_path="train_config.json"):
     return config
 
 def load_dataset(ds, split):
-    fp = f"/mnt/parscratch/users/acp20tg/kg_laysumm/data/{ds}/{split}.json"
+    fp = f"/home/dock/{ds}/{split}.json"
     with open(fp, "r") as f:
         data = json.loads(f.read())
 
@@ -25,7 +25,7 @@ def load_dataset(ds, split):
 
 
 def load_dataset_abstract(ds, split):
-    fp = f"/mnt/parscratch/users/acp20tg/kg_laysumm/data/{ds}/{split}.json"
+    fp = f"/home/dock/{ds}/{split}.json"
     with open(fp, "r") as f:
         data = json.loads(f.read())
 
