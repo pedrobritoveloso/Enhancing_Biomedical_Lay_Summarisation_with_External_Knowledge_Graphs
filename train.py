@@ -24,6 +24,7 @@ config = load_train_config(config_path)
 # load tools
 ds = "elife"
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
+print('device: "%s"' % device)
 accelerator = Accelerator()
 tokenizer = AutoTokenizer.from_pretrained(config['model_str'])
 metric = evaluate.load("rouge")
