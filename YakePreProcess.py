@@ -14,17 +14,15 @@ def extract_keywords(text, num_terms=10, isTrigram=False):
     return keywords
 
 # Function to search keywords in DBPedia and return only biomedical links
-
 def search_dbpedia(keyword):
     """
-    Search DBPedia for a given keyword and return its biomedical DBpedia link if found.
+    Search DBPedia for a given keyword and return its DBpedia link along with the full description.
     """
-    url = f"http://lookup.dbpedia.org/api/search?query={keyword}&format=JSON"
+    lookup_url = f"http://lookup.dbpedia.org/api/search?query={keyword}&format=JSON"
     headers = {"Accept": "application/json"}
-    print(f"Searching DBPedia for keyword: {keyword}")
 
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(lookup_url, headers=headers)
 
         if response.status_code == 200:
             results = response.json().get("docs", [])
@@ -33,18 +31,21 @@ def search_dbpedia(keyword):
                 print("No results found in DBPedia.")
                 return None
 
-            # Step 1: Only consider the first result
+            # Extract only the first result
             first_result = results[0]  
+            main_url = first_result.get("resource", [None])[0]  
 
-            # Step 2: Extract the DBPedia link and description
-            main_url = first_result.get("resource", [None])[0]  # Extract first resource link
-            description = first_result.get("description", ["No description available"])[0]  # Extract description
+            if not main_url:
+                print("No valid DBpedia resource found.")
+                return None
 
             print(f"First result URL: {main_url}")
-            print(f"Description: {description}")
 
-            # Step 3: Return the DBPedia link for further processing
-            return main_url  
+            # Extract full description from DBPedia resource
+            full_description = fetch_dbpedia_description(main_url)
+
+            print(f"Full Description: {full_description}")
+            return main_url
 
         print("No relevant DBPedia link found.")
         return None  
@@ -53,8 +54,30 @@ def search_dbpedia(keyword):
         print(f"Error querying DBPedia for '{keyword}': {e}")
         return None
 
-# Function to process eLife JSON files
 
+def fetch_dbpedia_description(resource_url):
+    """
+    Fetch the full English description from DBPedia's data endpoint.
+    """
+    # Convert resource URL to API format
+    resource_name = resource_url.split("/")[-1]  
+    dbpedia_api_url = f"http://dbpedia.org/data/{resource_name}.json"
+
+    try:
+        response = requests.get(dbpedia_api_url)
+        if response.status_code == 200:
+            data = response.json()
+            # Locate the correct entity data
+            entity_data = data.get(f"http://dbpedia.org/resource/{resource_name}", {})
+            # Extract full English abstract
+            abstracts = entity_data.get("http://dbpedia.org/ontology/abstract", [])
+            for abstract in abstracts:
+                if abstract.get("lang") == "en":  # Select English abstract
+                    return abstract.get("value", "No abstract available")
+        return "No abstract available"
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching description for '{resource_url}': {e}")
+        return "No abstract available"
 
 def process_elife_file(file_path, output_folder, isTrigram):
     print(f"Processing file: {file_path}")
