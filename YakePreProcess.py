@@ -29,7 +29,7 @@ def search_dbpedia(keyword):
 
             if not results:
                 print("No results found in DBPedia.")
-                return None
+                return None, None
 
             # Extract only the first result
             first_result = results[0]  
@@ -37,7 +37,7 @@ def search_dbpedia(keyword):
 
             if not main_url:
                 print("No valid DBpedia resource found.")
-                return None
+                return None, None
 
             print(f"First result URL: {main_url}")
 
@@ -45,14 +45,14 @@ def search_dbpedia(keyword):
             full_description = fetch_dbpedia_description(main_url)
 
             print(f"Full Description: {full_description}")
-            return main_url
+            return main_url, full_description
 
         print("No relevant DBPedia link found.")
-        return None  
+        return None, None  
 
     except requests.exceptions.RequestException as e:
         print(f"Error querying DBPedia for '{keyword}': {e}")
-        return None
+        return None, None
 
 
 def fetch_dbpedia_description(resource_url):
@@ -65,16 +65,21 @@ def fetch_dbpedia_description(resource_url):
 
     try:
         response = requests.get(dbpedia_api_url)
+
         if response.status_code == 200:
             data = response.json()
+
             # Locate the correct entity data
             entity_data = data.get(f"http://dbpedia.org/resource/{resource_name}", {})
+
             # Extract full English abstract
             abstracts = entity_data.get("http://dbpedia.org/ontology/abstract", [])
             for abstract in abstracts:
                 if abstract.get("lang") == "en":  # Select English abstract
                     return abstract.get("value", "No abstract available")
+
         return "No abstract available"
+
     except requests.exceptions.RequestException as e:
         print(f"Error fetching description for '{resource_url}': {e}")
         return "No abstract available"
@@ -86,8 +91,7 @@ def process_elife_file(file_path, output_folder, isTrigram):
         data = json.load(file)
 
     if not isinstance(data, list):
-        print(
-            f"Skipping {file_path}: JSON structure is not a list of articles.")
+        print(f"Skipping {file_path}: JSON structure is not a list of articles.")
         return
 
     processed_articles = []
@@ -99,10 +103,10 @@ def process_elife_file(file_path, output_folder, isTrigram):
 
         if "sections" in article and isinstance(article["sections"], list):
             content = " ".join(
-                [" ".join(section) for section in article["sections"] if isinstance(section, list)])
+                [" ".join(section) for section in article["sections"] if isinstance(section, list)]
+            )
         else:
-            print(
-                f"Skipping an entry in {file_path}: Invalid 'sections' structure.")
+            print(f"Skipping an entry in {file_path}: Invalid 'sections' structure.")
             continue
 
         if not content.strip():
@@ -114,23 +118,26 @@ def process_elife_file(file_path, output_folder, isTrigram):
         keywords = extract_keywords(content, isTrigram=isTrigram)
         print(f"Extracted keywords: {keywords}")
 
-        # Query DBPedia for biomedical links only
-        dbpedia_links = {kw: search_dbpedia(kw) for kw in keywords}
-        print(f"No more dbpedia links related to this article")
+        # Query DBPedia for each keyword
+        dbpedia_results = {}
+        for kw in keywords:
+            link, description = search_dbpedia(kw)  # Now returns both link & description
+            if link:
+                dbpedia_results[kw] = {
+                    "link": link,
+                    "description": description
+                }
+
+        print("No more DBPedia links related to this article")
 
         # Structure output JSON
         processed_entry = {
             "id": article.get("id", "unknown"),
             "title": article.get("title", "Untitled"),
-            "eLife": content
+            "dbpedia": dbpedia_results  # Store all DBpedia results
         }
 
-        # Add only valid DBpedia links
-        for term, link in dbpedia_links.items():
-            if link:
-                processed_entry[term] = link
-
-        if len(processed_entry) > 3:  # Ensure at least one DBpedia link is added
+        if dbpedia_results:  # Ensure at least one DBpedia link is added
             processed_articles.append(processed_entry)
 
     if not processed_articles:
@@ -140,7 +147,8 @@ def process_elife_file(file_path, output_folder, isTrigram):
     base_filename = os.path.basename(file_path).replace('.json', '')
     output_filename = os.path.join(
         output_folder,
-        f"processed_{base_filename}_{'trigrams' if isTrigram else 'bigrams'}.json")
+        f"processed_{base_filename}_{'trigrams' if isTrigram else 'bigrams'}.json"
+    )
 
     with open(output_filename, "w", encoding="utf-8") as json_file:
         json.dump(processed_articles, json_file, ensure_ascii=False, indent=4)
