@@ -15,7 +15,6 @@ def extract_keywords(text, num_terms=10, isTrigram=False):
 
 # Function to search keywords in DBPedia and return only biomedical links
 
-
 def search_dbpedia(keyword):
     """
     Search DBPedia for a given keyword and return its biomedical DBpedia link if found.
@@ -29,29 +28,26 @@ def search_dbpedia(keyword):
 
         if response.status_code == 200:
             results = response.json().get("docs", [])
-            biomedical_types = [
-                "BiologicalProcess",
-                "Disease",
-                "Gene",
-                "ChemicalSubstance",
-                "PharmaceuticalDrug"]
 
-# Check the results and find biomedical-related links
-            for result in results:
-                # Get the DBPedia URI from the 'resource' key
-                main_url = result.get("resource", [None])[0]  # Resource URL is in a list
+            if not results:
+                print("No results found in DBPedia.")
+                return None
 
-                # Get the categories and check for biomedical terms
-                categories = result.get("category", [])
-                print(f"URL: {main_url}")
-#print(f"Categories: {categories}")
+            # Step 1: Only consider the first result
+            first_result = results[0]  
 
-                # If the categories match any biomedical types, return the resource link
-                if any(bio_type in categories for bio_type in biomedical_types):
-                    print(f"Found biomedical DBPedia link: {main_url}")
-                    return main_url  # Return the first matching biomedical link
-        print("No relevant biomedical DBPedia link found.")
-        return None  # No relevant biomedical DBpedia link found
+            # Step 2: Extract the DBPedia link and description
+            main_url = first_result.get("resource", [None])[0]  # Extract first resource link
+            description = first_result.get("description", ["No description available"])[0]  # Extract description
+
+            print(f"First result URL: {main_url}")
+            print(f"Description: {description}")
+
+            # Step 3: Return the DBPedia link for further processing
+            return main_url  
+
+        print("No relevant DBPedia link found.")
+        return None  
 
     except requests.exceptions.RequestException as e:
         print(f"Error querying DBPedia for '{keyword}': {e}")
