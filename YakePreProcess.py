@@ -1,12 +1,11 @@
-
 import os
 import json
 import yake
 import requests
 
+OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
+
 # Function to extract keywords using YAKE
-
-
 def extract_keywords(text, num_terms=10, isTrigram=False):
     n = 3 if isTrigram else 2  # Use trigrams or bigrams
     keyword_extractor = yake.KeywordExtractor(top=num_terms, n=n)
@@ -15,9 +14,6 @@ def extract_keywords(text, num_terms=10, isTrigram=False):
 
 # Function to search keywords in DBPedia and return only biomedical links
 def search_dbpedia(keyword):
-    """
-    Search DBPedia for a given keyword and return its DBpedia link along with the full description.
-    """
     lookup_url = f"http://lookup.dbpedia.org/api/search?query={keyword}&format=JSON"
     headers = {"Accept": "application/json"}
 
@@ -56,9 +52,6 @@ def search_dbpedia(keyword):
 
 
 def fetch_dbpedia_description(resource_url):
-    """
-    Fetch the full English description from DBPedia's data endpoint.
-    """
     # Convert resource URL to API format
     resource_name = resource_url.split("/")[-1]  
     dbpedia_api_url = f"http://dbpedia.org/data/{resource_name}.json"
@@ -83,6 +76,41 @@ def fetch_dbpedia_description(resource_url):
     except requests.exceptions.RequestException as e:
         print(f"Error fetching description for '{resource_url}': {e}")
         return "No abstract available"
+
+def query_ollama(keyword):
+    try:
+        response = requests.post(
+            OLLAMA_API_URL,
+            headers={"Content-Type": "application/json"},
+            json={
+                "model": "deepseek-r1",  # Ensure the model name is correct
+                "prompt": f"Classify if the following term is related to biomedical/biological domain: {keyword}."
+            },
+        )
+        
+        # Print the raw response text
+        print("Response Content:", response.text)
+
+        if response.status_code == 200:
+            response_json = response.json()
+            return response_json.get("choices", [{}])[0].get("text", "").strip()
+        else:
+            print(f"Error querying Ollama: {response.status_code} {response.text}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Error querying Ollama: {e}")
+        return None
+
+
+def is_biomedical_keyword(keyword):
+    """
+    Uses Ollama to classify whether a given keyword is related to the biomedical/biological domain.
+    Returns True if the keyword is related, False otherwise.
+    """
+    result = query_ollama(keyword)  # Assuming query_ollama is the function we created earlier to interact with Ollama
+    if result:
+        return "yes" in result.lower()  # Assuming Ollama responds with 'yes' or similar for biomedical terms
+    return False
 
 def process_elife_file(file_path, output_folder, isTrigram):
     print(f"Processing file: {file_path}")
@@ -118,10 +146,18 @@ def process_elife_file(file_path, output_folder, isTrigram):
         keywords = extract_keywords(content, isTrigram=isTrigram)
         print(f"Extracted keywords: {keywords}")
 
-        # Query DBPedia for each keyword
-        dbpedia_results = {}
+        # Filter keywords with Ollama
+        relevant_keywords = []
         for kw in keywords:
-            link, description = search_dbpedia(kw)  # Now returns both link & description
+            if is_biomedical_keyword(kw):
+                relevant_keywords.append(kw)
+
+        print(f"Filtered relevant keywords: {relevant_keywords}")
+
+        # Query DBPedia for each relevant keyword
+        dbpedia_results = {}
+        for kw in relevant_keywords:
+            link, description = search_dbpedia(kw)
             if link:
                 dbpedia_results[kw] = {
                     "link": link,
@@ -154,6 +190,7 @@ def process_elife_file(file_path, output_folder, isTrigram):
         json.dump(processed_articles, json_file, ensure_ascii=False, indent=4)
 
     print(f"Processed: {file_path} -> Saved to {output_filename}")
+
 
 # Function to list and choose eLife files
 

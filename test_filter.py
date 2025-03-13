@@ -1,27 +1,27 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer
+import requests
+import json
 
-model_name = "microsoft/Phi-4-mini-instruct"
+# Define the Ollama API URL
+OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
 
-# Force re-download
-tokenizer = AutoTokenizer.from_pretrained(model_name, force_download=True)
-model = AutoModelForCausalLM.from_pretrained(model_name, force_download=True)
-
-def is_biomedical(description):
-    """Checks if the given description is related to biomedical/biological topics."""
-    prompt = f"""You are a helpful assistant. Consider the following abstract:\n\n{description}\n\nDo you think it is a biological or biomedical related concept? Answer only yes or no."""
+# Function to send a request to Ollama
+def query_ollama(prompt, model="deepseek-r1"):
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False  # Set to True if you want streaming responses
+    }
     
-    inputs = tokenizer(prompt, return_tensors="pt")
-    output = model.generate(**inputs, max_length=50)
-    response = tokenizer.decode(output[0], skip_special_tokens=True)
+    response = requests.post(OLLAMA_API_URL, json=payload)
     
-    return "yes" in response.lower()
+    if response.status_code == 200:
+        result = response.json()
+        return result.get("response", "No response")
+    else:
+        return f"Error: {response.status_code}, {response.text}"
 
-# Example Usage
-dbpedia_descriptions = {
-    "RNA-binding proteins": "RNA-binding proteins (often abbreviated as RBPs) are proteins that bind to the double or single-stranded RNA...",
-    "Play key": "The piano is a stringed keyboard instrument...",
-}
-
-filtered_keywords = {k: v for k, v in dbpedia_descriptions.items() if is_biomedical(v)}
-
-print(filtered_keywords)  # Should remove "Play key" but keep "RNA-binding proteins"
+# Example usage
+if __name__ == "__main__":
+    prompt = "You are a helpful assistant. Consider the following Politician abstract about. A politician is a person active in party politics, or a person holding or seeking an elected office in government. Politicians propose, support, reject and create laws that govern the land and by extension its people. Broadly speaking, a politician can be anyone who seeks to achieve political power in a government. Do you think it is a biological or biomedical related concept? Answer only yes or no."
+    result = query_ollama(prompt)
+    print("Ollama Response:", result)
