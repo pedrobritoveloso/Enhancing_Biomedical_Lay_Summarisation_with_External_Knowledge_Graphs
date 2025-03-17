@@ -84,23 +84,41 @@ def query_ollama(keyword):
             headers={"Content-Type": "application/json"},
             json={
                 "model": "deepseek-r1",  # Ensure the model name is correct
-                "prompt": f"Classify if the following term is related to biomedical/biological domain: {keyword}."
+                "prompt": f"Classify if the following term is related to biomedical/biological domain: {keyword}. Answer yes if it's related to biomedical/biological, no if not."
             },
+            stream=True  # Use stream mode to handle the chunks of response
         )
-        
-        # Print the raw response text
-        print("Response Content:", response.text)
 
-        if response.status_code == 200:
-            response_json = response.json()
-            return response_json.get("choices", [{}])[0].get("text", "").strip()
-        else:
-            print(f"Error querying Ollama: {response.status_code} {response.text}")
+        # Check if the request was successful (status code 200)
+        if response.status_code != 200:
+            print(f"Error: Received status code {response.status_code}")
             return None
-    except requests.exceptions.RequestException as e:
-        print(f"Error querying Ollama: {e}")
-        return None
 
+        # Print raw response text for debugging
+        print("\n" + "=" * 50)
+        full_response = ""
+        # Iterate over the chunks in the stream
+        for chunk in response.iter_lines():
+            if chunk:
+                # Decode the chunk to a string and parse it as JSON
+                try:
+                    json_chunk = json.loads(chunk.decode("utf-8"))
+                    # Add the response text to the full response
+                    full_response += json_chunk.get("response", "")  # Concatenate the parts
+                except json.JSONDecodeError:
+                    print("Error decoding chunk")
+
+        # Print the full concatenated response
+        print("Full Response: ")
+        print(full_response)
+        print("=" * 50 + "\n")
+
+        return full_response.strip()  # Return the complete response
+
+    except requests.exceptions.RequestException as e:
+        print(f"\nError querying Ollama: {e}")
+        print("=" * 50 + "\n")
+        return None
 
 def is_biomedical_keyword(keyword):
     """

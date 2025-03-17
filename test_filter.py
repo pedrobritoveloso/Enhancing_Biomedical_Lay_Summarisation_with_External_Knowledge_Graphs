@@ -22,6 +22,6 @@ def query_ollama(prompt, model="deepseek-r1"):
 
 # Example usage
 if __name__ == "__main__":
-    prompt = "You are a helpful assistant. Consider the following Politician abstract about. A politician is a person active in party politics, or a person holding or seeking an elected office in government. Politicians propose, support, reject and create laws that govern the land and by extension its people. Broadly speaking, a politician can be anyone who seeks to achieve political power in a government. Do you think it is a biological or biomedical related concept? Answer only yes or no."
+    prompt = "Is Lisbon the capital of Portugal? Answer only with yes or no"
     result = query_ollama(prompt)
     print("Ollama Response:", result)
