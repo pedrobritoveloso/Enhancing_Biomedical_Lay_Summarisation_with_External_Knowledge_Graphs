@@ -6,9 +6,8 @@ import requests
 OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
 
 # Function to extract keywords using YAKE
-def extract_keywords(text, num_terms=10, isTrigram=False):
-    n = 3 if isTrigram else 2  # Use trigrams or bigrams
-    keyword_extractor = yake.KeywordExtractor(top=num_terms, n=n)
+def extract_keywords(text, num_terms=10, dedupLim=0.5):
+    keyword_extractor = yake.KeywordExtractor(top=num_terms, n=2, dedupLim=dedupLim)
     keywords = [kw[0] for kw in keyword_extractor.extract_keywords(text)]
     return keywords
 
@@ -130,7 +129,7 @@ def is_biomedical_keyword(keyword):
         return "yes" in result.lower()  # Assuming Ollama responds with 'yes' or similar for biomedical terms
     return False
 
-def process_elife_file(file_path, output_folder, isTrigram):
+def process_elife_file(file_path, output_folder):
     print(f"Processing file: {file_path}")
 
     with open(file_path, "r", encoding="utf-8") as file:
@@ -161,7 +160,7 @@ def process_elife_file(file_path, output_folder, isTrigram):
 
         print(f"Extracting keywords from an article in {file_path}")
 
-        keywords = extract_keywords(content, isTrigram=isTrigram)
+        keywords = extract_keywords(content)
         print(f"Extracted keywords: {keywords}")
 
         # Filter keywords with Ollama
@@ -201,7 +200,7 @@ def process_elife_file(file_path, output_folder, isTrigram):
     base_filename = os.path.basename(file_path).replace('.json', '')
     output_filename = os.path.join(
         output_folder,
-        f"processed_{base_filename}_{'trigrams' if isTrigram else 'bigrams'}.json"
+        f"processed_{base_filename}_{'bigrams'}.json"
     )
 
     with open(output_filename, "w", encoding="utf-8") as json_file:
@@ -238,20 +237,6 @@ def choose_file(input_folder):
         print("Invalid input. Please enter a number.")
         return None
 
-# Function to choose between trigrams and bigrams
-
-
-def choose_keyword_type():
-    while True:
-        choice = input(
-            "Extract trigrams (True) or bigrams (False)? Enter True or False: ")
-        if choice.lower() == "true":
-            return True
-        elif choice.lower() == "false":
-            return False
-        else:
-            print("Invalid input. Enter True or False.")
-
 
 # Run script
 input_folder = "/home/dock/elife"
@@ -261,5 +246,4 @@ os.makedirs(output_folder, exist_ok=True)
 file_to_process = choose_file(input_folder)
 
 if file_to_process:
-    isTrigram = choose_keyword_type()
-    process_elife_file(file_to_process, output_folder, isTrigram)
+    process_elife_file(file_to_process, output_folder)
