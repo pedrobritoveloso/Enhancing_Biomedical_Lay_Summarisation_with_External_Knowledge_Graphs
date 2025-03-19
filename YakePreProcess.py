@@ -1,5 +1,6 @@
 import os
 import json
+import sys
 import yake
 import requests
 
@@ -113,8 +114,8 @@ def is_biomedical_keyword(keyword):
         return "yes" in result.lower()  # Assuming Ollama responds with 'yes' or similar for biomedical terms
     return False
 
-def process_elife_file(file_path, output_folder):
-    print(f"Processing file: {file_path}")
+def process_elife_file(file_path, output_folder, start_id, end_id):
+    print(f"Processing file: {file_path} (Articles {start_id} to {end_id})")
 
     with open(file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
@@ -122,25 +123,19 @@ def process_elife_file(file_path, output_folder):
     if not isinstance(data, list):
         print(f"Skipping {file_path}: JSON structure is not a list of articles.")
         return
-
+    total_articles = len(data)
+    start_id = max(1, start_id)  # Ensure valid range
+    end_id = min(end_id, total_articles)
     processed_articles = []
     processed_keywords = []
     contador = 0
-    for article in data:
-        if not isinstance(article, dict):
-            print(f"Skipping an entry in {file_path}: Not a valid dictionary")
+    for index, article in enumerate(data[start_id-1:end_id], start=start_id):
+        if not isinstance(article, dict) or "sections" not in article:
             continue
-
-        if "sections" in article and isinstance(article["sections"], list):
-            content = " ".join(
-                [" ".join(section) for section in article["sections"] if isinstance(section, list)]
-            )
-        else:
-            print(f"Skipping an entry in {file_path}: Invalid 'sections' structure.")
-            continue
-
-        if not content.strip():
-            print(f"Skipping an entry in {file_path}: Extracted text is empty")
+        
+        # Extract article text
+        content = " ".join(" ".join(section) for section in article["sections"] if isinstance(section, list)).strip()
+        if not content:
             continue
 
         print(f"Extracting keywords from an article in {file_path}")
@@ -161,7 +156,7 @@ def process_elife_file(file_path, output_folder):
 
         print(f"Filtered relevant keywords: {relevant_keywords}")
 
-# Query DBPedia for each relevant keyword
+        # Query DBPedia for each relevant keyword
         dbpedia_results = {}
         for kw in relevant_keywords:
             contador += 1  # Increment counter
@@ -206,8 +201,6 @@ def process_elife_file(file_path, output_folder):
 
 
 # Function to list and choose eLife files
-
-
 def choose_file(input_folder):
     files = [f for f in os.listdir(input_folder) if f.endswith(".json")]
 
@@ -235,11 +228,19 @@ def choose_file(input_folder):
 
 
 # Run script
-input_folder = "/home/dock/elife"
-output_folder = "/home/dock/Enhancing_Biomedical_Lay_Summarisation_with_External_Knowledge_Graphs/YakePreProcess"
-os.makedirs(output_folder, exist_ok=True)
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: python YakePreprocess.py <start_id> <end_id>")
+        sys.exit(1)
 
-file_to_process = choose_file(input_folder)
+    start_id = int(sys.argv[1])
+    end_id = int(sys.argv[2])
 
-if file_to_process:
-    process_elife_file(file_to_process, output_folder)
+    input_folder = "/home/dock/elife"
+    output_folder = "/home/dock/Enhancing_Biomedical_Lay_Summarisation_with_External_Knowledge_Graphs/YakePreProcess"
+    os.makedirs(output_folder, exist_ok=True)
+
+    file_to_process = choose_file(input_folder)
+
+    if file_to_process:
+        process_elife_file(file_to_process, output_folder,start_id, end_id)
