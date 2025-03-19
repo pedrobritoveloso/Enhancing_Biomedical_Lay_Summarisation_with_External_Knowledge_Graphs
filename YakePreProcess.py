@@ -15,35 +15,25 @@ def extract_keywords(text, num_terms=10, dedupLim=0.5):
 def search_dbpedia(keyword):
     lookup_url = f"http://lookup.dbpedia.org/api/search?query={keyword}&format=JSON"
     headers = {"Accept": "application/json"}
-
     try:
         response = requests.get(lookup_url, headers=headers)
-
         if response.status_code == 200:
             results = response.json().get("docs", [])
-
             if not results:
                 print("No results found in DBPedia.")
                 return None, None
-
             # Extract only the first result
-            first_result = results[0]  
-            main_url = first_result.get("resource", [None])[0]  
-
+            first_result = results[0]
+            main_url = first_result.get("resource", [None])[0]
             if not main_url:
                 print("No valid DBpedia resource found.")
                 return None, None
-
             print(f"First result URL: {main_url}")
-
             # Extract full description from DBPedia resource
             full_description = fetch_dbpedia_description(main_url)
-
-            print(f"Full Description: {full_description}")
             return main_url, full_description
-
         print("No relevant DBPedia link found.")
-        return None, None  
+        return None, None
 
     except requests.exceptions.RequestException as e:
         print(f"Error querying DBPedia for '{keyword}': {e}")
@@ -52,24 +42,19 @@ def search_dbpedia(keyword):
 
 def fetch_dbpedia_description(resource_url):
     # Convert resource URL to API format
-    resource_name = resource_url.split("/")[-1]  
+    resource_name = resource_url.split("/")[-1]
     dbpedia_api_url = f"http://dbpedia.org/data/{resource_name}.json"
-
     try:
         response = requests.get(dbpedia_api_url)
-
         if response.status_code == 200:
             data = response.json()
-
             # Locate the correct entity data
             entity_data = data.get(f"http://dbpedia.org/resource/{resource_name}", {})
-
             # Extract full English abstract
             abstracts = entity_data.get("http://dbpedia.org/ontology/abstract", [])
             for abstract in abstracts:
                 if abstract.get("lang") == "en":  # Select English abstract
                     return abstract.get("value", "No abstract available")
-
         return "No abstract available"
 
     except requests.exceptions.RequestException as e:
@@ -111,7 +96,6 @@ def query_ollama(keyword):
         print("Full Response: ")
         print(full_response)
         print("=" * 50 + "\n")
-
         return full_response.strip()  # Return the complete response
 
     except requests.exceptions.RequestException as e:
@@ -140,7 +124,8 @@ def process_elife_file(file_path, output_folder):
         return
 
     processed_articles = []
-
+    processed_keywords = []
+    contador = 0
     for article in data:
         if not isinstance(article, dict):
             print(f"Skipping an entry in {file_path}: Not a valid dictionary")
@@ -159,28 +144,34 @@ def process_elife_file(file_path, output_folder):
             continue
 
         print(f"Extracting keywords from an article in {file_path}")
-
         keywords = extract_keywords(content)
         print(f"Extracted keywords: {keywords}")
 
+        # Store all original extracted keywords
+        processed_keywords_entry = {
+            "id": article.get("id", "unknown"),
+            "title": article.get("title", "Untitled"),
+            "keywords": keywords  # Store the raw keyword list (Fixed Syntax)
+        }
+
+        processed_keywords.append(processed_keywords_entry)  # Fixed: Corrected append
+
         # Filter keywords with Ollama
-        relevant_keywords = []
-        for kw in keywords:
-            if is_biomedical_keyword(kw):
-                relevant_keywords.append(kw)
+        relevant_keywords = [kw for kw in keywords if is_biomedical_keyword(kw)]
 
         print(f"Filtered relevant keywords: {relevant_keywords}")
 
-        # Query DBPedia for each relevant keyword
+# Query DBPedia for each relevant keyword
         dbpedia_results = {}
         for kw in relevant_keywords:
+            contador += 1  # Increment counter
+            print(f"DBPedia Query Count: {contador}")  # Print counter
             link, description = search_dbpedia(kw)
             if link:
                 dbpedia_results[kw] = {
                     "link": link,
                     "description": description
                 }
-
         print("No more DBPedia links related to this article")
 
         # Structure output JSON
@@ -197,16 +188,21 @@ def process_elife_file(file_path, output_folder):
         print(f"No valid articles processed in {file_path}, skipping output.")
         return
 
+    # Save processed articles
     base_filename = os.path.basename(file_path).replace('.json', '')
-    output_filename = os.path.join(
-        output_folder,
-        f"processed_{base_filename}_{'bigrams'}.json"
-    )
+    output_filename = os.path.join(output_folder, f"processed_{base_filename}_bigrams.json")
 
     with open(output_filename, "w", encoding="utf-8") as json_file:
         json.dump(processed_articles, json_file, ensure_ascii=False, indent=4)
 
+    # Save extracted keywords before filtering
+    output_filename_keywords = os.path.join(output_folder, f"processed_{base_filename}_keywords.json")
+
+    with open(output_filename_keywords, "w", encoding="utf-8") as json_file:  # Fixed: Corrected encoding
+        json.dump(processed_keywords, json_file, ensure_ascii=False, indent=4)
+
     print(f"Processed: {file_path} -> Saved to {output_filename}")
+    print(f"Processed: {file_path} -> Saved to {output_filename_keywords}")  # Fixed: Corrected variable name
 
 
 # Function to list and choose eLife files
