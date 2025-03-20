@@ -7,12 +7,17 @@ import requests
 OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
 
 # Function to extract keywords using YAKE
+
+
 def extract_keywords(text, num_terms=10, dedupLim=0.5):
-    keyword_extractor = yake.KeywordExtractor(top=num_terms, n=2, dedupLim=dedupLim)
+    keyword_extractor = yake.KeywordExtractor(
+        top=num_terms, n=2, dedupLim=dedupLim)
     keywords = [kw[0] for kw in keyword_extractor.extract_keywords(text)]
     return keywords
 
 # Function to search keywords in DBPedia and return only biomedical links
+
+
 def search_dbpedia(keyword):
     lookup_url = f"http://lookup.dbpedia.org/api/search?query={keyword}&format=JSON"
     headers = {"Accept": "application/json"}
@@ -50,9 +55,11 @@ def fetch_dbpedia_description(resource_url):
         if response.status_code == 200:
             data = response.json()
             # Locate the correct entity data
-            entity_data = data.get(f"http://dbpedia.org/resource/{resource_name}", {})
+            entity_data = data.get(
+                f"http://dbpedia.org/resource/{resource_name}", {})
             # Extract full English abstract
-            abstracts = entity_data.get("http://dbpedia.org/ontology/abstract", [])
+            abstracts = entity_data.get(
+                "http://dbpedia.org/ontology/abstract", [])
             for abstract in abstracts:
                 if abstract.get("lang") == "en":  # Select English abstract
                     return abstract.get("value", "No abstract available")
@@ -61,6 +68,7 @@ def fetch_dbpedia_description(resource_url):
     except requests.exceptions.RequestException as e:
         print(f"Error fetching description for '{resource_url}': {e}")
         return "No abstract available"
+
 
 def query_ollama(keyword):
     try:
@@ -89,7 +97,8 @@ def query_ollama(keyword):
                 try:
                     json_chunk = json.loads(chunk.decode("utf-8"))
                     # Add the response text to the full response
-                    full_response += json_chunk.get("response", "")  # Concatenate the parts
+                    # Concatenate the parts
+                    full_response += json_chunk.get("response", "")
                 except json.JSONDecodeError:
                     print("Error decoding chunk")
 
@@ -104,14 +113,17 @@ def query_ollama(keyword):
         print("=" * 50 + "\n")
         return None
 
+
 def is_biomedical_keyword(keyword):
     """
     Uses Ollama to classify whether a given keyword is related to the biomedical/biological domain.
     Returns True if the keyword is related, False otherwise.
     """
-    result = query_ollama(keyword)  # Assuming query_ollama is the function we created earlier to interact with Ollama
+    result = query_ollama(
+        keyword)  # Assuming query_ollama is the function we created earlier to interact with Ollama
     if result:
-        return "yes" in result.lower()  # Assuming Ollama responds with 'yes' or similar for biomedical terms
+        # Assuming Ollama responds with 'yes' or similar for biomedical terms
+        return "yes" in result.lower()
     return False
 
 def process_elife_file(file_path, output_folder, start_id, end_id):
@@ -126,79 +138,75 @@ def process_elife_file(file_path, output_folder, start_id, end_id):
     total_articles = len(data)
     start_id = max(1, start_id)  # Ensure valid range
     end_id = min(end_id, total_articles)
-    processed_articles = []
-    processed_keywords = []
     contador = 0
-    for index, article in enumerate(data[start_id-1:end_id], start=start_id):
-        if not isinstance(article, dict) or "sections" not in article:
-            continue
-        
-        # Extract article text
-        content = " ".join(" ".join(section) for section in article["sections"] if isinstance(section, list)).strip()
-        if not content:
-            continue
 
-        print(f"Extracting keywords from an article in {file_path}")
-        keywords = extract_keywords(content)
-        print(f"Extracted keywords: {keywords}")
-
-        # Store all original extracted keywords
-        processed_keywords_entry = {
-            "id": article.get("id", "unknown"),
-            "title": article.get("title", "Untitled"),
-            "keywords": keywords  # Store the raw keyword list (Fixed Syntax)
-        }
-
-        processed_keywords.append(processed_keywords_entry)  # Fixed: Corrected append
-
-        # Filter keywords with Ollama
-        relevant_keywords = [kw for kw in keywords if is_biomedical_keyword(kw)]
-
-        print(f"Filtered relevant keywords: {relevant_keywords}")
-
-        # Query DBPedia for each relevant keyword
-        dbpedia_results = {}
-        for kw in relevant_keywords:
-            contador += 1  # Increment counter
-            print(f"DBPedia Query Count: {contador}")  # Print counter
-            link, description = search_dbpedia(kw)
-            if link:
-                dbpedia_results[kw] = {
-                    "link": link,
-                    "description": description
-                }
-        print("No more DBPedia links related to this article")
-
-        # Structure output JSON
-        processed_entry = {
-            "id": article.get("id", "unknown"),
-            "title": article.get("title", "Untitled"),
-            "dbpedia": dbpedia_results  # Store all DBpedia results
-        }
-
-        if dbpedia_results:  # Ensure at least one DBpedia link is added
-            processed_articles.append(processed_entry)
-
-    if not processed_articles:
-        print(f"No valid articles processed in {file_path}, skipping output.")
-        return
-
-    # Save processed articles
+    # Open the output files for appending
     base_filename = os.path.basename(file_path).replace('.json', '')
     output_filename = os.path.join(output_folder, f"processed_{base_filename}_bigrams.json")
-
-    with open(output_filename, "w", encoding="utf-8") as json_file:
-        json.dump(processed_articles, json_file, ensure_ascii=False, indent=4)
-
-    # Save extracted keywords before filtering
     output_filename_keywords = os.path.join(output_folder, f"processed_{base_filename}_keywords.json")
 
-    with open(output_filename_keywords, "w", encoding="utf-8") as json_file:  # Fixed: Corrected encoding
-        json.dump(processed_keywords, json_file, ensure_ascii=False, indent=4)
+    # Open files in append mode
+    with open(output_filename, "a", encoding="utf-8") as json_file, \
+         open(output_filename_keywords, "a", encoding="utf-8") as json_file_keywords:
+        
+        for index, article in enumerate(data[start_id - 1:end_id], start=start_id):
+            if not isinstance(article, dict) or "sections" not in article:
+                continue
+
+            # Extract article text
+            content = " ".join(
+                " ".join(section) for section in article["sections"] if isinstance(section, list)).strip()
+            if not content:
+                continue
+
+            print(f"Extracting keywords from an article in {file_path}")
+            keywords = extract_keywords(content)
+            print(f"Extracted keywords: {keywords}")
+
+            # Store all original extracted keywords (unfiltered)
+            processed_keywords_entry = {
+                "id": article.get("id", "unknown"),
+                "title": article.get("title", "Untitled"),
+                "keywords": keywords  # Store the raw (unfiltered) keyword list
+            }
+
+            # Append the unfiltered keywords to the keywords file
+            if keywords:
+                json.dump([processed_keywords_entry], json_file_keywords, ensure_ascii=False, indent=4)
+                json_file_keywords.write("\n")  # Ensure each entry is on a new line
+
+            # Filter keywords with Ollama
+            relevant_keywords = [kw for kw in keywords if is_biomedical_keyword(kw)]
+
+            print(f"Filtered relevant keywords: {relevant_keywords}")
+
+            # Query DBPedia for each relevant keyword
+            dbpedia_results = {}
+            contador += 1
+            print(f"Contador de artigos ja processsadoss: {contador}")
+            for kw in relevant_keywords:
+                link, description = search_dbpedia(kw)
+                if link:
+                    dbpedia_results[kw] = {
+                        "link": link,
+                        "description": description
+                    }
+            print("No more DBPedia links related to this article")
+
+            # Structure output JSON for article data
+            processed_entry = {
+                "id": article.get("id", "unknown"),
+                "title": article.get("title", "Untitled"),
+                "dbpedia": dbpedia_results  # Store all DBpedia results
+            }
+
+            # If there are relevant DBpedia results, append to the processed_bigrams file
+            if dbpedia_results:
+                json.dump([processed_entry], json_file, ensure_ascii=False, indent=4)
+                json_file.write("\n")  # Ensure each entry is on a new line
 
     print(f"Processed: {file_path} -> Saved to {output_filename}")
-    print(f"Processed: {file_path} -> Saved to {output_filename_keywords}")  # Fixed: Corrected variable name
-
+    print(f"Processed: {file_path} -> Saved to {output_filename_keywords}")
 
 # Function to list and choose eLife files
 def choose_file(input_folder):
@@ -243,4 +251,4 @@ if __name__ == "__main__":
     file_to_process = choose_file(input_folder)
 
     if file_to_process:
-        process_elife_file(file_to_process, output_folder,start_id, end_id)
+        process_elife_file(file_to_process, output_folder, start_id, end_id)
