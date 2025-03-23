@@ -1,11 +1,11 @@
 import json
 
 # Load filtered_test_keywords
-with open('YakePreProcess/filter_test/filtered_test_keywords.json', 'r') as f:
+with open('filtered_test_keywords.json', 'r') as f:
     filtered_keywords = json.load(f)
 
 # Load filtered_test_bigrams
-with open('YakePreProcess/File_pre_processed/processed_test_bigrams.json', 'r') as f:
+with open('filtered_test_bigrams.json', 'r') as f:
     filtered_bigrams = json.load(f)
 
 # Open the output file for writing
