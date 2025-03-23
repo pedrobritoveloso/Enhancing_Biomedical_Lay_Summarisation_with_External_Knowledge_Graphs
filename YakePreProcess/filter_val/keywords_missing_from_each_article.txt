@@ -1,0 +1,200 @@
+Article ID: elife-14193-v2
+Missing Keywords: {'stimulation power'}
+Number of Missing Keywords: 1
+
+Article ID: elife-65845-v1
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-00290-v1
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-58744-v1
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-35314-v1
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-01256-v1
+Missing Keywords: {'allelic bias'}
+Number of Missing Keywords: 1
+
+Article ID: elife-29146-v1
+Missing Keywords: {'balat locus'}
+Number of Missing Keywords: 1
+
+Article ID: elife-13133-v1
+Missing Keywords: {'Figure', 'control food'}
+Number of Missing Keywords: 2
+
+Article ID: elife-55963-v1
+Missing Keywords: {'large cargoes'}
+Number of Missing Keywords: 1
+
+Article ID: elife-47148-v1
+Missing Keywords: {'angular cone', 'cone sampling'}
+Number of Missing Keywords: 2
+
+Article ID: elife-22199-v2
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-13410-v2
+Missing Keywords: {'adult height', 'height', 'European countries', 'South Korea', 'Factor Collaboration'}
+Number of Missing Keywords: 5
+
+Article ID: elife-05828-v3
+Missing Keywords: {'Figure', 'extended night', 'GAY lines'}
+Number of Missing Keywords: 3
+
+Article ID: elife-09590-v2
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-04158-v2
+Missing Keywords: {'Group data'}
+Number of Missing Keywords: 1
+
+Article ID: elife-36204-v1
+Missing Keywords: {'figure supplement'}
+Number of Missing Keywords: 1
+
+Article ID: elife-16246-v1
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-11050-v1
+Missing Keywords: {'open state'}
+Number of Missing Keywords: 1
+
+Article ID: elife-55092-v2
+Missing Keywords: {'Figure', 'wave power'}
+Number of Missing Keywords: 2
+
+Article ID: elife-70658-v3
+Missing Keywords: {'Figure', 'rate constants'}
+Number of Missing Keywords: 2
+
+Article ID: elife-05178-v1
+Missing Keywords: {'CFP ratio'}
+Number of Missing Keywords: 1
+
+Article ID: elife-26747-v2
+Missing Keywords: {'undead’ AiP'}
+Number of Missing Keywords: 1
+
+Article ID: elife-49190-v2
+Missing Keywords: {'behavioural responses'}
+Number of Missing Keywords: 1
+
+Article ID: elife-30084-v2
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-03701-v2
+Missing Keywords: {'economic commitments', 'rule type', 'asset pool'}
+Number of Missing Keywords: 3
+
+Article ID: elife-13479-v1
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-36123-v2
+Missing Keywords: {'quiet standing', 'forward condition', 'head forward'}
+Number of Missing Keywords: 3
+
+Article ID: elife-09580-v3
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-17210-v3
+Missing Keywords: {'temperature increase', 'oscillating magnetic'}
+Number of Missing Keywords: 2
+
+Article ID: elife-05125-v2
+Missing Keywords: {'light stripe', 'dark stripes'}
+Number of Missing Keywords: 2
+
+Article ID: elife-10222-v2
+Missing Keywords: {'Grand Island'}
+Number of Missing Keywords: 1
+
+Article ID: elife-37751-v2
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-11290-v3
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-20054-v2
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-33908-v2
+Missing Keywords: {'logic gate'}
+Number of Missing Keywords: 1
+
+Article ID: elife-02755-v1
+Missing Keywords: {'REST levels'}
+Number of Missing Keywords: 1
+
+Article ID: elife-45465-v2
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-18383-v2
+Missing Keywords: {'inactivating Sst', 'Sst', 'light blue', 'figure supplement'}
+Number of Missing Keywords: 4
+
+Article ID: elife-01020-v1
+Missing Keywords: {'Figure', 'Anaef', 'unpaired Student'}
+Number of Missing Keywords: 3
+
+Article ID: elife-02008-v2
+Missing Keywords: {'Figure', 'figure supplement'}
+Number of Missing Keywords: 2
+
+Article ID: elife-49223-v2
+Missing Keywords: {'Figure', 'binding energy'}
+Number of Missing Keywords: 2
+
+Article ID: elife-34593-v1
+Missing Keywords: {'Alexa Fluor'}
+Number of Missing Keywords: 1
+
+Article ID: elife-01197-v1
+Missing Keywords: {'figure supplement'}
+Number of Missing Keywords: 1
+
+Article ID: elife-03743-v1
+Missing Keywords: {'cut halves'}
+Number of Missing Keywords: 1
+
+Article ID: elife-15477-v3
+Missing Keywords: {'Figure', 'figure supplement'}
+Number of Missing Keywords: 2
+
+Article ID: elife-34414-v2
+Missing Keywords: {'figure supplement', 'muscae genome'}
+Number of Missing Keywords: 2
+
+Article ID: elife-73124-v2
+Missing Keywords: set()
+Number of Missing Keywords: 0
+
+Article ID: elife-20542-v2
+Missing Keywords: {'DAP seeds'}
+Number of Missing Keywords: 1
+
+Article ID: elife-22939-v2
+Missing Keywords: {'Figure'}
+Number of Missing Keywords: 1
+
+Article ID: elife-15271-v2
+Missing Keywords: {'NALCN'}
+Number of Missing Keywords: 1
+
