@@ -245,7 +245,7 @@ if __name__ == "__main__":
     end_id = int(sys.argv[2])
 
     input_folder = "/home/dock/elife"
-    output_folder = "/home/dock/Enhancing_Biomedical_Lay_Summarisation_with_External_Knowledge_Graphs/YakePreProcess"
+    output_folder = "/home/dock/Enhancing_Biomedical_Lay_Summarisation_with_External_Knowledge_Graphs/YakePreProcess/Files_pre_processed"
     os.makedirs(output_folder, exist_ok=True)
 
     file_to_process = choose_file(input_folder)
