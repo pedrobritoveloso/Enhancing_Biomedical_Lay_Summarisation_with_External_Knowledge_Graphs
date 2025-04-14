@@ -1,0 +1,13 @@
+from sklearn.metrics import cohen_kappa_score
+
+# Sample (cleaned) data extracted from your table
+human = [1,1,1,1,0,1,1,1,1,1]  # from the "Human" column
+llm =   [1,0,1,0,1,1,1,1,1,1]  # from the "LLM" column
+
+# Convert string '1!' to int(1), if needed (strip '!')
+
+# Calculate Kappa
+kappa = cohen_kappa_score(human, llm)
+print(f"Human ratings: {human}")
+print(f"LLM ratings: {llm}")
+print(f"Cohen's Kappa: {kappa:.2f}")
