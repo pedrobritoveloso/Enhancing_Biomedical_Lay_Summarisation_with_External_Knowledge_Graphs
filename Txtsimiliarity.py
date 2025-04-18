@@ -14,7 +14,7 @@ concept_ids = []
 for file_path in file_paths:
     with open(file_path, 'r', encoding='utf-8') as f:
         articles = json.load(f)
-    
+
     for article in articles:
         for concept, info in article["dbpedia"].items():
             desc = info.get("description", "")
@@ -22,16 +22,15 @@ for file_path in file_paths:
                 descriptions.append(desc)
                 concept_ids.append(f'{article["id"]}:{concept}')
 
-print(f"✅ Loaded {len(descriptions)} descriptions.")
+print(f"Loaded {len(descriptions)} descriptions.")
 
 # Step 2: Load model & encode
 model = SentenceTransformer('all-MiniLM-L6-v2')
 embeddings = model.encode(descriptions, convert_to_tensor=True)
 
-print(f"✅ Generated embeddings shape: {embeddings.shape}")  # Should be (N, 384)
+print(f"Generated embeddings shape: {embeddings.shape}")  # Should be (N, 384)
 
 # Step 3: Quick sanity check
-print("\n🔎 Example:")
+print("\nExample:")
 print("Description:", descriptions[0][:200] + "...")
 print("Embedding (first 5 dims):", embeddings[0][:5])
-
