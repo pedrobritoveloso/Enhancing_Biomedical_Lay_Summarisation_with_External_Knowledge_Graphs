@@ -23710,5 +23710,3077 @@
             "Figure",
             "Auxin signaling"
         ]
+    },
+    {
+        "id": "elife-66410-v2",
+        "title": "Fast deep neural correspondence for tracking and identifying neurons in C. elegans using semi-synthetic training",
+        "keywords": [
+            "fDNC model",
+            "ground truth",
+            "neural correspondence",
+            "color model",
+            "position information",
+            "tracking neurons",
+            "neuron positions",
+            "semi-synthetic individuals",
+            "Model performance",
+            "semi-synthetic data"
+        ]
+    },
+    {
+        "id": "elife-03648-v2",
+        "title": "The membrane-associated proteins FCHo and SGIP are allosteric activators of the AP2 clathrin adaptor complex",
+        "keywords": [
+            "figure supplement",
+            "APA domain",
+            "FCHo proteins",
+            "TEV protease",
+            "Figure",
+            "F-BAR domain",
+            "amino acids",
+            "Cargo assay",
+            "plasma membrane",
+            "closed conformation"
+        ]
+    },
+    {
+        "id": "elife-00181-v1",
+        "title": "Morphologic diversity of cutaneous sensory afferents revealed by genetically directed sparse labeling",
+        "keywords": [
+            "arbor area",
+            "arbor types",
+            "sensory arbors",
+            "HD-FALE arbors",
+            "hair follicles",
+            "figure supplement",
+            "lanceolate endings",
+            "arbor tracing",
+            "Merkel cell",
+            "MCA arbors"
+        ]
+    },
+    {
+        "id": "elife-59081-v2",
+        "title": "Intracellular complexities of acquiring a new enzymatic function revealed by mass-randomisation of active-site residues",
+        "keywords": [
+            "chloramphenicol detoxification",
+            "figure supplement",
+            "improved chloramphenicol",
+            "Supplementary file",
+            "NfsA variants",
+            "wild-type nfsA",
+            "chloramphenicol reduction",
+            "native substrate",
+            "native NfsA",
+            "selected variants"
+        ]
+    },
+    {
+        "id": "elife-18009-v2",
+        "title": "Visual attention is available at a task-relevant location rapidly after a saccade",
+        "keywords": [
+            "figure supplement",
+            "Figure",
+            "individual subjects",
+            "saccade offset",
+            "post-saccadic recovery",
+            "attention task",
+            "Data plotted",
+            "recovery time",
+            "rapid post-saccadic",
+            "spatial attention"
+        ]
+    },
+    {
+        "id": "elife-08586-v1",
+        "title": "Structured illumination with particle averaging reveals novel roles for yeast centrosome components during duplication",
+        "keywords": [
+            "mother SPB",
+            "SPB duplication",
+            "figure supplement",
+            "SPB components",
+            "arrested cells",
+            "SIM images",
+            "SPB",
+            "cell cycle",
+            "core SPB",
+            "single SPB"
+        ]
+    },
+    {
+        "id": "elife-02391-v2",
+        "title": "Re-examining how complexin inhibits neurotransmitter release",
+        "keywords": [
+            "SNARE complex",
+            "accessory helix",
+            "SNARE complexes",
+            "figure supplement",
+            "truncated SNARE",
+            "synaptobrevin SNARE",
+            "SNARE motif",
+            "central helix",
+            "non-truncated SNARE",
+            "CpxI accessory"
+        ]
+    },
+    {
+        "id": "elife-63274-v2",
+        "title": "Efficient chromatin accessibility mapping in situ by nucleosome-tethered tagmentation",
+        "keywords": [
+            "figure supplement",
+            "DNA accessibility",
+            "CUTAC sites",
+            "CUTAC peaks",
+            "Tag data",
+            "ENCODE ATAC-seq",
+            "regulatory elements",
+            "CUTAC data",
+            "accessibility mapping",
+            "Figure"
+        ]
+    },
+    {
+        "id": "elife-10820-v1",
+        "title": "Transmembrane chemokines act as receptors in a novel mechanism termed inverse signaling",
+        "keywords": [
+            "LOX cells",
+            "cell lines",
+            "glioma cells",
+            "compare Figure",
+            "LOX melanoma",
+            "figure supplement",
+            "cell line",
+            "biological replicates",
+            "western blot",
+            "melanoma cells"
+        ]
+    },
+    {
+        "id": "elife-64711-v1",
+        "title": "Persistent effects of pair bonding in lung cancer cell growth in monogamous Peromyscus californicus",
+        "keywords": [
+            "cancer cells",
+            "lung cancer",
+            "pair bonds",
+            "figure supplement",
+            "pair bonding",
+            "bond disruption",
+            "nude mice",
+            "bonding history",
+            "bond-disrupted animals",
+            "spheroid formation"
+        ]
+    },
+    {
+        "id": "elife-64711-v1",
+        "title": "Persistent effects of pair bonding in lung cancer cell growth in monogamous Peromyscus californicus",
+        "keywords": [
+            "cancer cells",
+            "lung cancer",
+            "pair bonds",
+            "figure supplement",
+            "pair bonding",
+            "bond disruption",
+            "nude mice",
+            "bonding history",
+            "bond-disrupted animals",
+            "spheroid formation"
+        ]
+    },
+    {
+        "id": "elife-02217-v1",
+        "title": "Structural basis for the assembly of the mitotic motor Kinesin-5 into bipolar tetramers",
+        "keywords": [
+            "BASS tetramer",
+            "BASS domain",
+            "BASS structure",
+            "BASS",
+            "BASS bundle",
+            "BASS interfaces",
+            "BASS anti-parallel",
+            "BASS protein",
+            "BASS central",
+            "native BASS"
+        ]
+    },
+    {
+        "id": "elife-00467-v1",
+        "title": "Controlling gain one photon at a time",
+        "keywords": [
+            "gain control",
+            "gain changes",
+            "ganglion cell",
+            "bipolar cells",
+            "rod bipolar",
+            "control mechanisms",
+            "gain",
+            "background change",
+            "spike responses",
+            "flash strength"
+        ]
+    },
+    {
+        "id": "elife-15043-v1",
+        "title": "Astrocytes contribute to synapse elimination via type 2 inositol 1,4,5-trisphosphate receptor-dependent release of ATP",
+        "keywords": [
+            "Synapse elimination",
+            "VPm neurons",
+            "figure supplement",
+            "ATP level",
+            "basal ATP",
+            "Error bars",
+            "Scale bar",
+            "ATP injection",
+            "confocal images",
+            "ATP"
+        ]
+    },
+    {
+        "id": "elife-39397-v2",
+        "title": "Learning protein constitutive motifs from sequence data",
+        "keywords": [
+            "sequence data",
+            "hidden units",
+            "protein sequences",
+            "RBM model",
+            "sequence space",
+            "Kunitz domain",
+            "RBM",
+            "Figure",
+            "design sequences",
+            "training RBM"
+        ]
+    },
+    {
+        "id": "elife-10070-v2",
+        "title": "Untwisting the Caenorhabditis elegans embryo",
+        "keywords": [
+            "seam cell",
+            "figure supplement",
+            "cell nuclei",
+            "seam cells",
+            "ALA cell",
+            "ALA neurite",
+            "cell nucleus",
+            "Figure",
+            "Supplementary file",
+            "cell body"
+        ]
+    },
+    {
+        "id": "elife-45051-v3",
+        "title": "The long non-coding RNA Cerox1 is a post transcriptional regulator of mitochondrial complex I catalytic activity",
+        "keywords": [
+            "figure supplement",
+            "mitochondrial complex",
+            "transcript levels",
+            "OXPHOS transcripts",
+            "Total RNA",
+            "Figure",
+            "complex III",
+            "mitochondrial OXPHOS",
+            "cell lines",
+            "enzymatic activity"
+        ]
+    },
+    {
+        "id": "elife-48448-v3",
+        "title": "Neutrophils promote CXCR3-dependent itch in the development of atopic dermatitis",
+        "keywords": [
+            "figure supplement",
+            "Chronic itch",
+            "itch behaviors",
+            "Figure",
+            "immune cells",
+            "scratching behaviors",
+            "gene expression",
+            "neutrophil infiltration",
+            "acute itch",
+            "itch"
+        ]
+    },
+    {
+        "id": "elife-54276-v2",
+        "title": "The dynamic transmission of positional information in stau- mutants during Drosophila embryogenesis",
+        "keywords": [
+            "figure supplement",
+            "Bcd gradient",
+            "gradient noise",
+            "dynamic shift",
+            "dynamic Bcd",
+            "measurement errors",
+            "Figure",
+            "Bcd-GFP gradient",
+            "positional information",
+            "patterning genes"
+        ]
+    },
+    {
+        "id": "elife-03532-v3",
+        "title": "Allosteric signalling in the outer membrane translocation domain of PapC usher",
+        "keywords": [
+            "PapC usher",
+            "non-covalent RIN",
+            "figure supplement",
+            "wild-type PapC",
+            "NCI score",
+            "native PapC",
+            "native RIN",
+            "mutant lacking",
+            "NCI edges",
+            "non-covalent interaction"
+        ]
+    },
+    {
+        "id": "elife-52244-v2",
+        "title": "State-dependent brainstem ensemble dynamics and their interactions with hippocampus across sleep states",
+        "keywords": [
+            "REM sleep",
+            "NREM sleep",
+            "brainstem neurons",
+            "Sleep states",
+            "figure supplement",
+            "brainstem populations",
+            "neural events",
+            "pupil diameter",
+            "Figure",
+            "pupil dilation"
+        ]
+    },
+    {
+        "id": "elife-13918-v1",
+        "title": "A robust activity marking system for exploring active neuronal ensembles",
+        "keywords": [
+            "RAM system",
+            "figure supplement",
+            "RAM labeling",
+            "Dox diet",
+            "Representative images",
+            "RAM expression",
+            "RAM",
+            "Cre-dependent RAM",
+            "Drosophila RAM",
+            "relative luciferase"
+        ]
+    },
+    {
+        "id": "elife-33927-v1",
+        "title": "Tunable molecular tension sensors reveal extension-based control of vinculin loading",
+        "keywords": [
+            "figure supplement",
+            "tension sensors",
+            "extensible domain",
+            "FRET efficiency",
+            "vinculin tension",
+            "Sigma Aldrich",
+            "FRET pair",
+            "molecular tension",
+            "Figure",
+            "mechanical properties"
+        ]
+    },
+    {
+        "id": "elife-11396-v1",
+        "title": "An essential role of acetylcholine-glutamate synergy at habenular synapses in nicotine dependence",
+        "keywords": [
+            "ChAT-cKO mice",
+            "IPN neurons",
+            "MHb neurons",
+            "habenular neurons",
+            "cholinergic neurons",
+            "synaptic vesicles",
+            "central IPN",
+            "ChAT-cKO neurons",
+            "IPN vesicles",
+            "glutamate uptake"
+        ]
+    },
+    {
+        "id": "elife-33864-v2",
+        "title": "Control of endothelial cell polarity and sprouting angiogenesis by non-centrosomal microtubules",
+        "keywords": [
+            "figure supplement",
+            "Figure",
+            "non-centrosomal MTs",
+            "Golgi membranes",
+            "Golgi apparatus",
+            "control cells",
+            "cell migration",
+            "Golgi positioning",
+            "cell polarity",
+            "Golgi area"
+        ]
+    },
+    {
+        "id": "elife-03100-v2",
+        "title": "Salmonella Typhi and Salmonella Paratyphi A elaborate distinct systemic metabolite signatures during enteric fever",
+        "keywords": [
+            "Enteric fever",
+            "plasma samples",
+            "Typhi samples",
+            "metabolite profiles",
+            "Typhi infections",
+            "control samples",
+            "AUC scores",
+            "Typhi cases",
+            "plasma metabolite",
+            "metabolite peaks"
+        ]
+    },
+    {
+        "id": "elife-13503-v3",
+        "title": "A Mammalian enhancer trap resource for discovering and manipulating neuronal cell types",
+        "keywords": [
+            "figure supplement",
+            "expression patterns",
+            "cell types",
+            "reporter expression",
+            "Cre lines",
+            "gene expression",
+            "restricted expression",
+            "Figure",
+            "specific expression",
+            "mCitrine-positive cells"
+        ]
+    },
+    {
+        "id": "elife-07596-v3",
+        "title": "Sex differences in cerebellar synaptic transmission and sex-specific responses to autism-linked Gabrb3 mutations in mice",
+        "keywords": [
+            "wild-type males",
+            "mutant males",
+            "CbN cells",
+            "Purkinje cells",
+            "wild-type females",
+            "tonic current",
+            "mutant females",
+            "male mice",
+            "wild-type mice",
+            "synaptic currents"
+        ]
+    },
+    {
+        "id": "elife-47155-v1",
+        "title": "Evolution of neuronal anatomy and circuitry in two highly divergent nematode species",
+        "keywords": [
+            "amphid neurons",
+            "sensory neurons",
+            "URX neurons",
+            "ASE neurons",
+            "amphid sheath",
+            "amphid sensory",
+            "figure supplement",
+            "elegans amphid",
+            "pacificus amphid",
+            "cell body"
+        ]
+    },
+    {
+        "id": "elife-32506-v1",
+        "title": "Chiral cell sliding drives left-right asymmetric organ twisting",
+        "keywords": [
+            "cell sliding",
+            "Cell chirality",
+            "cell intercalation",
+            "epithelial cells",
+            "cell",
+            "figure supplement",
+            "chiral cell",
+            "hindgut rotation",
+            "Figure",
+            "directional cell"
+        ]
+    },
+    {
+        "id": "elife-06416-v1",
+        "title": "Whole genome comparison of a large collection of mycobacteriophages reveals a continuum of phage genetic diversity",
+        "keywords": [
+            "phage genomes",
+            "figure supplement",
+            "Cluster diversity",
+            "Cluster Cohesion",
+            "Cluster Isolation",
+            "cluster size",
+            "mycobacteriophage genomes",
+            "phamilies shared",
+            "gene phamilies",
+            "Cluster Averaged"
+        ]
+    },
+    {
+        "id": "elife-33781-v1",
+        "title": "Personality links with lifespan in chimpanzees",
+        "keywords": [
+            "chimpanzee personality",
+            "personality traits",
+            "life history",
+            "human personality",
+            "longer life",
+            "personality dimensions",
+            "captive chimpanzees",
+            "personality scores",
+            "nonhuman primates",
+            "personality"
+        ]
+    },
+    {
+        "id": "elife-04177-v2",
+        "title": "Recognition of tumor cells by Dectin-1 orchestrates innate immune cells for anti-tumor responses",
+        "keywords": [
+            "figure supplement",
+            "tumor cells",
+            "vitro killing",
+            "killing activity",
+            "target cells",
+            "cells",
+            "cell line",
+            "cell killing",
+            "immune cells",
+            "cell lines"
+        ]
+    },
+    {
+        "id": "elife-11853-v3",
+        "title": "Glucocorticoid receptor-PPARα axis in fetal mouse liver prepares neonates for milk lipid catabolism",
+        "keywords": [
+            "figure supplement",
+            "fetal liver",
+            "target genes",
+            "gene expression",
+            "Ppara mRNA",
+            "PPARα target",
+            "Ppara expression",
+            "Ppara",
+            "Oil Red",
+            "primary hepatocytes"
+        ]
+    },
+    {
+        "id": "elife-73490-v2",
+        "title": "Comprehensive characterization of the antibody responses to SARS-CoV-2 Spike protein finds additional vaccine-induced epitopes beyond those for mild infection",
+        "keywords": [
+            "vaccinated individuals",
+            "Trial Cohort",
+            "infected individuals",
+            "Spike protein",
+            "Moderna Trial",
+            "HAARVI Cohort",
+            "epitope binding",
+            "SH-H epitope",
+            "CTD epitope",
+            "epitope region"
+        ]
+    },
+    {
+        "id": "elife-34970-v2",
+        "title": "SET-9 and SET-26 are H3K4me3 readers and play critical roles in germline development and longevity",
+        "keywords": [
+            "figure supplement",
+            "double mutant",
+            "mutant worms",
+            "Figure",
+            "wild-type worms",
+            "gene expression",
+            "expression change",
+            "PHD domains",
+            "double GFP",
+            "GFP expression"
+        ]
+    },
+    {
+        "id": "elife-08261-v2",
+        "title": "First quantitative high-throughput screen in zebrafish identifies novel pathways for increasing pancreatic β-cell mass",
+        "keywords": [
+            "figure supplement",
+            "β-cell proliferation",
+            "endocrine differentiation",
+            "β-cell numbers",
+            "increased β-cell",
+            "islet formation",
+            "β-cell mass",
+            "drug plates",
+            "drug discovery",
+            "NF-κB signaling"
+        ]
+    },
+    {
+        "id": "elife-24414-v2",
+        "title": "Host-selected mutations converging on a global regulator drive an adaptive leap towards symbiosis in bacteria",
+        "keywords": [
+            "figure supplement",
+            "binK variants",
+            "fischeri strains",
+            "CThis study",
+            "squid colonization",
+            "BinK mutations",
+            "biofilm production",
+            "Figure",
+            "selective advantage",
+            "squid light"
+        ]
+    },
+    {
+        "id": "elife-01374-v1",
+        "title": "Shugoshin biases chromosomes for biorientation through condensin recruitment to the pericentromere",
+        "keywords": [
+            "figure supplement",
+            "Cells carrying",
+            "wild-type cells",
+            "sister kinetochore",
+            "Figure",
+            "kinetochore biorientation",
+            "cells arrested",
+            "cell cycle",
+            "error correction",
+            "cells"
+        ]
+    },
+    {
+        "id": "elife-08646-v2",
+        "title": "Imaging and energetics of single SSB-ssDNA molecules reveal intramolecular condensation and insight into RecOR function",
+        "keywords": [
+            "figure supplement",
+            "SSB tetramer",
+            "salt concentration",
+            "SSB binding",
+            "SSB-coated ssDNA",
+            "SSB protein",
+            "SSB",
+            "Figure",
+            "ssDNA molecules",
+            "free SSB"
+        ]
+    },
+    {
+        "id": "elife-38461-v1",
+        "title": "Structure of the human volume regulated anion channel",
+        "keywords": [
+            "figure supplement",
+            "LRR domains",
+            "extracellular domains",
+            "VRAC currents",
+            "Figure",
+            "LRR regions",
+            "Structure figures",
+            "HeLa cells",
+            "EDTA-free PIC",
+            "LRR density"
+        ]
+    },
+    {
+        "id": "elife-03198-v4",
+        "title": "Natural epigenetic polymorphisms lead to intraspecific variation in Arabidopsis gene imprinting",
+        "keywords": [
+            "figure supplement",
+            "imprinted genes",
+            "DNA methylation",
+            "source data",
+            "Cvi SNP",
+            "small RNAs",
+            "Cvi embryos",
+            "Cvi methylation",
+            "strain DMRs",
+            "Figure"
+        ]
+    },
+    {
+        "id": "elife-33478-v2",
+        "title": "A randomised double blind placebo controlled phase 2 trial of adjunctive aspirin for tuberculous meningitis in HIV-uninfected adults",
+        "keywords": [
+            "aspirin groups",
+            "dose aspirin",
+            "Aspirin",
+            "gastro-intestinal bleeding",
+            "placebo group",
+            "aspirin arms",
+            "lipid mediators",
+            "treatment groups",
+            "brain infarction",
+            "adverse events"
+        ]
+    },
+    {
+        "id": "elife-49998-v1",
+        "title": "Defining murine monocyte differentiation into colonic and ileal macrophages",
+        "keywords": [
+            "gene expression",
+            "ileal macrophages",
+            "monocyte differentiation",
+            "colonic macrophages",
+            "figure supplement",
+            "Gut macrophages",
+            "intestinal macrophages",
+            "tissue macrophages",
+            "resident macrophages",
+            "Figure"
+        ]
+    },
+    {
+        "id": "elife-04235-v2",
+        "title": "Polycomb- and REST-associated histone deacetylases are independent pathways toward a mature neuronal phenotype",
+        "keywords": [
+            "REST sites",
+            "REST target",
+            "figure supplement",
+            "REST",
+            "REST complex",
+            "REST complexes",
+            "REST binding",
+            "target genes",
+            "REST protein",
+            "REST ESCs"
+        ]
+    },
+    {
+        "id": "elife-23871-v2",
+        "title": "A theory of working memory without consciousness or sustained activity",
+        "keywords": [
+            "working memory",
+            "unseen trials",
+            "unseen correct",
+            "conscious working",
+            "memory task",
+            "target location",
+            "correct trials",
+            "conscious perception",
+            "figure supplement",
+            "non-conscious working"
+        ]
+    },
+    {
+        "id": "elife-12411-v3",
+        "title": "The Sec7 N-terminal regulatory domains facilitate membrane-proximal activation of the Arf1 GTPase",
+        "keywords": [
+            "HUS domain",
+            "GEF domain",
+            "figure supplement",
+            "GEF activity",
+            "HUS construct",
+            "GEF constructs",
+            "terrestris DCB",
+            "nucleotide exchange",
+            "DCB domain",
+            "HUS"
+        ]
+    },
+    {
+        "id": "elife-28533-v3",
+        "title": "Serine ADP-ribosylation reversal by the hydrolase ARH3",
+        "keywords": [
+            "DNA damage",
+            "figure supplement",
+            "histone Ser-ADPr",
+            "SILAC standard",
+            "PAR chains",
+            "histone peptide",
+            "cells treated",
+            "Core histones",
+            "Figure",
+            "histones purified"
+        ]
+    },
+    {
+        "id": "elife-04250-v1",
+        "title": "Automatic discovery of cell types and microcircuitry from neural connectomics",
+        "keywords": [
+            "cell types",
+            "cell type",
+            "block model",
+            "Neuron types",
+            "true type",
+            "model assumes",
+            "posterior distribution",
+            "model",
+            "clustering model",
+            "types"
+        ]
+    },
+    {
+        "id": "elife-22283-v2",
+        "title": "Immediate perception of a reward is distinct from the reward’s long-term salience",
+        "keywords": [
+            "figure supplement",
+            "L-arabinose memory",
+            "L-arabinose",
+            "significant differences",
+            "Figure",
+            "long-term memory",
+            "DOI",
+            "gustatory receptors",
+            "distal tarsi",
+            "VCSO neurons"
+        ]
+    },
+    {
+        "id": "elife-08760-v2",
+        "title": "Thalamic reticular nucleus induces fast and local modulation of arousal state",
+        "keywords": [
+            "slow waves",
+            "TRN stimulation",
+            "slow wave",
+            "TRN activation",
+            "TRN neurons",
+            "putative TRN",
+            "TRN units",
+            "cortical slow",
+            "figure supplement",
+            "TRN"
+        ]
+    },
+    {
+        "id": "elife-20444-v2",
+        "title": "Suppressor of cytokine signaling (SOCS)5 ameliorates influenza infection via inhibition of EGFR signaling",
+        "keywords": [
+            "influenza virus",
+            "figure supplement",
+            "epithelial cells",
+            "virus infection",
+            "EGFR levels",
+            "COPD patients",
+            "EGFR inhibitor",
+            "EGFR activity",
+            "EGFR signaling",
+            "influenza infection"
+        ]
+    },
+    {
+        "id": "elife-38358-v2",
+        "title": "Human T cell receptor occurrence patterns encode immune history, genetic background, and receptor specificity",
+        "keywords": [
+            "HLA allele",
+            "TCR chains",
+            "TCR clusters",
+            "TCR sequence",
+            "TCR",
+            "TCRs",
+            "HLA association",
+            "TCR occurrence",
+            "HLA",
+            "TCR co-occurrence"
+        ]
+    },
+    {
+        "id": "elife-54846-v3",
+        "title": "A compositional neural code in high-level visual cortex can explain jumbled word reading",
+        "keywords": [
+            "letter model",
+            "visual search",
+            "response times",
+            "letter responses",
+            "single letters",
+            "word response",
+            "word frequency",
+            "lexical decision",
+            "letter code",
+            "neural responses"
+        ]
+    },
+    {
+        "id": "elife-45205-v1",
+        "title": "Protein quality control in the nucleolus safeguards recovery of epigenetic regulators after heat shock",
+        "keywords": [
+            "figure supplement",
+            "PcG proteins",
+            "nucleolar accumulation",
+            "Figure",
+            "Thermo Fisher",
+            "Fisher Scientific",
+            "HS-induced nucleolar",
+            "target genes",
+            "nucleolar proteins",
+            "chromatin binding"
+        ]
+    },
+    {
+        "id": "elife-00005-v1",
+        "title": "Molecular architecture of human polycomb repressive complex 2",
+        "keywords": [
+            "class averages",
+            "SANT domain",
+            "SET domain",
+            "Crystal structure",
+            "C-terminal GFP",
+            "GFP tag",
+            "VEFS domain",
+            "internal GFP",
+            "GFP tags",
+            "subunit EED"
+        ]
+    },
+    {
+        "id": "elife-53999-v2",
+        "title": "Intracellular calcium leak lowers glucose storage in human muscle, promoting hyperglycemia and diabetes",
+        "keywords": [
+            "MHS patients",
+            "MHS condition",
+            "figure supplement",
+            "MHS muscle",
+            "microsomal fraction",
+            "MHS subjects",
+            "glycogen content",
+            "MHS",
+            "Malignant Hyperthermia",
+            "glycogen granules"
+        ]
+    },
+    {
+        "id": "elife-03671-v2",
+        "title": "Quantitative analysis of mammalian GIRK2 channel regulation by G proteins, the signaling lipid PIP2 and Na+ in a reconstituted system",
+        "keywords": [
+            "GIRK channel",
+            "Gβγ subunits",
+            "channel activity",
+            "activate GIRK",
+            "Gβγ",
+            "channel activation",
+            "Gβγ activates",
+            "channel opening",
+            "non-lipidated Gβγ",
+            "Gβγ vesicles"
+        ]
+    },
+    {
+        "id": "elife-07004-v2",
+        "title": "MicroRNA-203 represses selection and expansion of oncogenic Hras transformed tumor initiating cells",
+        "keywords": [
+            "figure supplement",
+            "Fisher Scientific",
+            "Thermo Fisher",
+            "primary keratinocytes",
+            "data sets",
+            "oncogenic Hras",
+            "Figure",
+            "Ras mutations",
+            "target genes",
+            "data set"
+        ]
+    },
+    {
+        "id": "elife-06377-v1",
+        "title": "The transcriptional cofactor TRIM33 prevents apoptosis in B lymphoblastic leukemia by deactivating a single enhancer",
+        "keywords": [
+            "figure supplement",
+            "B-ALL cells",
+            "biological replicates",
+            "figure represent",
+            "Bim knockdown",
+            "cell lines",
+            "AML cells",
+            "Figure",
+            "Bim locus",
+            "GFP gating"
+        ]
+    },
+    {
+        "id": "elife-45210-v2",
+        "title": "A bacterial riboswitch class for the thiamin precursor HMP-PP employs a terminator-embedded aptamer",
+        "keywords": [
+            "motif RNAs",
+            "terminator stem",
+            "figure supplement",
+            "gene expression",
+            "motif RNA",
+            "RNA polymerase",
+            "reporter gene",
+            "RNA construct",
+            "RNAs function",
+            "HMP-PP riboswitch"
+        ]
+    },
+    {
+        "id": "elife-34817-v2",
+        "title": "Regenerating hair cells in vestibular sensory epithelia from humans",
+        "keywords": [
+            "hair cells",
+            "hair cell",
+            "supporting cells",
+            "myosin VIIa",
+            "hair",
+            "cells",
+            "hair bundles",
+            "cells expressing",
+            "Figure",
+            "vestibular hair"
+        ]
+    },
+    {
+        "id": "elife-11058-v3",
+        "title": "Control of TSC2-Rheb signaling axis by arginine regulates mTORC1 activity",
+        "keywords": [
+            "figure supplement",
+            "amino acids",
+            "Life Technologies",
+            "Figure",
+            "Rag GTPases",
+            "growth factors",
+            "HeLa cells",
+            "arginine starvation",
+            "human Rheb",
+            "acid starvation"
+        ]
+    },
+    {
+        "id": "elife-04070-v3",
+        "title": "The rosetteless gene controls development in the choanoflagellate S. rosetta",
+        "keywords": [
+            "figure supplement",
+            "Rosetteless cells",
+            "Rosetteless mutant",
+            "Rosetteless phenotype",
+            "Rosette development",
+            "single cells",
+            "Rtls protein",
+            "wild-type cells",
+            "mutant cells",
+            "chain colonies"
+        ]
+    },
+    {
+        "id": "elife-16000-v2",
+        "title": "Eph and Ephrin function in dispersal and epithelial insertion of pigmented immunocytes in sea urchin embryos",
+        "keywords": [
+            "Pigmented immunocytes",
+            "ventral ectoderm",
+            "Sp-Efn RNA",
+            "ectodermal cells",
+            "Ephrin signaling",
+            "dorsal ectoderm",
+            "Eph receptors",
+            "immunocyte precursors",
+            "injected embryos",
+            "embryo injected"
+        ]
+    },
+    {
+        "id": "elife-58723-v2",
+        "title": "Social dominance mediates behavioral adaptation to chronic stress in a sex-specific manner",
+        "keywords": [
+            "social dominance",
+            "chronic stress",
+            "Social rank",
+            "female mice",
+            "social hierarchies",
+            "female social",
+            "CMS mice",
+            "figure supplement",
+            "dominance hierarchies",
+            "social behavior"
+        ]
+    },
+    {
+        "id": "elife-09492-v1",
+        "title": "Punctuated evolution and transitional hybrid network in an ancestral cell cycle of fungi",
+        "keywords": [
+            "figure supplement",
+            "cell cycle",
+            "fungal SBF",
+            "yeast SBF",
+            "DNA binding",
+            "DNA viruses",
+            "SBF binding",
+            "eukaryotic DNA",
+            "binding sites",
+            "Figure"
+        ]
+    },
+    {
+        "id": "elife-54095-v2",
+        "title": "Circulating myeloid cells invade the central nervous system to mediate cachexia during pancreatic cancer",
+        "keywords": [
+            "figure supplement",
+            "tumor mice",
+            "immune cells",
+            "myeloid cells",
+            "tumor animals",
+            "PDAC cells",
+            "Figure",
+            "tumor-bearing animals",
+            "animals compared",
+            "globoid cells"
+        ]
+    },
+    {
+        "id": "elife-24767-v2",
+        "title": "Erythropoietin signaling regulates heme biosynthesis",
+        "keywords": [
+            "MEL cells",
+            "FECH phosphorylation",
+            "erythroid cells",
+            "PKA signaling",
+            "human FECH",
+            "FECH activity",
+            "PKA subunits",
+            "PKA activity",
+            "mitochondrial PKA",
+            "figure supplement"
+        ]
+    },
+    {
+        "id": "elife-00884-v1",
+        "title": "Mechanism of synergistic activation of Arp2/3 complex by cortactin and N-WASP",
+        "keywords": [
+            "branch junctions",
+            "actin filament",
+            "actin monomers",
+            "nascent branch",
+            "filament sides",
+            "cortactin binding",
+            "cortactin molecules",
+            "filament binding",
+            "figure supplement",
+            "cortactin concentration"
+        ]
+    },
+    {
+        "id": "elife-13964-v3",
+        "title": "ERG signaling in prostate cancer is driven through PRMT5-dependent methylation of the Androgen Receptor",
+        "keywords": [
+            "figure supplement",
+            "ERG expression",
+            "VCaP cells",
+            "ERG ETS",
+            "Western blot",
+            "cells expressing",
+            "ERG",
+            "ERG knockdown",
+            "expressing ERG",
+            "ERG positive"
+        ]
+    },
+    {
+        "id": "elife-08150-v1",
+        "title": "Cell-to-cell infection by HIV contributes over half of virus infection",
+        "keywords": [
+            "cell-free infection",
+            "Jurkat cells",
+            "infected cells",
+            "cell culture",
+            "shaking cell",
+            "basic reproduction",
+            "reproduction number",
+            "virus infection",
+            "static cell",
+            "figure supplement"
+        ]
+    },
+    {
+        "id": "elife-03892-v2",
+        "title": "Cross-synaptic synchrony and transmission of signal and noise across the mouse retina",
+        "keywords": [
+            "AII amacrine",
+            "amacrine cells",
+            "RBC CSS",
+            "RBC output",
+            "RBC voltage",
+            "RBC synapses",
+            "RBC synaptic",
+            "synaptic input",
+            "AII inputs",
+            "AII input"
+        ]
+    },
+    {
+        "id": "elife-14912-v3",
+        "title": "Cell-specific synaptic plasticity induced by network oscillations",
+        "keywords": [
+            "gamma frequency",
+            "gamma oscillations",
+            "frequency oscillations",
+            "gamma rhythms",
+            "SWR area",
+            "theta-nested gamma",
+            "SWR areas",
+            "synaptic plasticity",
+            "gamma activity",
+            "gamma network"
+        ]
+    },
+    {
+        "id": "elife-15106-v2",
+        "title": "Synaptic pruning in the female hippocampus is triggered at puberty by extrasynaptic GABAA receptors on dendritic spines",
+        "keywords": [
+            "spine density",
+            "figure supplement",
+            "Source data",
+            "thin spines",
+            "Mushroom spines",
+            "synaptic pruning",
+            "stubby spines",
+            "NMDAR expression",
+            "pyramidal cells",
+            "Spine counts"
+        ]
+    },
+    {
+        "id": "elife-14770-v2",
+        "title": "Tracking transcription factor mobility and interaction in Arabidopsis roots with fluorescence correlation spectroscopy",
+        "keywords": [
+            "SHR movement",
+            "SHR homodimer",
+            "SHR monomer",
+            "RICS analysis",
+            "SHR",
+            "Source data",
+            "SHR oligomeric",
+            "SHR moves",
+            "figure supplement",
+            "GFP line"
+        ]
+    },
+    {
+        "id": "elife-18605-v1",
+        "title": "Cooperation of the ER-shaping proteins atlastin, lunapark, and reticulons to generate a tubular membrane network",
+        "keywords": [
+            "Xenopus Lnp",
+            "figure supplement",
+            "Xenopus ATL",
+            "Scale bar",
+            "endogenous ATL",
+            "three-way junctions",
+            "Xenopus egg",
+            "Xenopus extracts",
+            "Scale bars",
+            "ATL mutants"
+        ]
+    },
+    {
+        "id": "elife-37621-v2",
+        "title": "Strong biomechanical relationships bias the tempo and mode of morphological evolution",
+        "keywords": [
+            "mechanical sensitivity",
+            "output link",
+            "Mechanical output",
+            "Four-bar linkages",
+            "evolutionary rate",
+            "four-bar system",
+            "input link",
+            "oral four-bar",
+            "link length",
+            "mantis shrimp"
+        ]
+    },
+    {
+        "id": "elife-00683-v1",
+        "title": "An essential role for maternal control of Nodal signaling",
+        "keywords": [
+            "sqt RNA",
+            "Nodal signaling",
+            "RNA localization",
+            "figure supplement",
+            "mutant embryos",
+            "control embryos",
+            "nodal RNA",
+            "sqt DLE",
+            "RNA Binding",
+            "RNA gel-shift"
+        ]
+    },
+    {
+        "id": "elife-04069-v2",
+        "title": "Defective apical extrusion signaling contributes to aggressive tumor hallmarks",
+        "keywords": [
+            "FAK inhibitor",
+            "cell death",
+            "MDCK cells",
+            "HBE cells",
+            "apoptotic cells",
+            "extruded cells",
+            "basal extrusion",
+            "cell extrusion",
+            "cancer cells",
+            "Epithelial cells"
+        ]
+    },
+    {
+        "id": "elife-19799-v2",
+        "title": "Increasing β-catenin/Wnt3A activity levels drive mechanical strain-induced cell cycle progression through mitosis",
+        "keywords": [
+            "mechanical strain",
+            "figure supplement",
+            "High Strain",
+            "MDCK monolayers",
+            "cell cycle",
+            "β-Catenin transcriptional",
+            "Fucci MDCK",
+            "Geminin-positive cells",
+            "MDCK cells",
+            "transcriptional activity"
+        ]
+    },
+    {
+        "id": "elife-09696-v2",
+        "title": "Fine-tuning citrate synthase flux potentiates and refines metabolic innovation in the Lenski evolution experiment",
+        "keywords": [
+            "citrate synthase",
+            "LTEE population",
+            "gltA mutations",
+            "citrate utilization",
+            "evolved Cit",
+            "citT mutation",
+            "Lenski LTEE",
+            "acetate utilization",
+            "LTEE mutations",
+            "Cit"
+        ]
+    },
+    {
+        "id": "elife-68549-v1",
+        "title": "Cortex cis-regulatory switches establish scale colour identity and pattern diversity in Heliconius",
+        "keywords": [
+            "figure supplement",
+            "yellow bar",
+            "cortex expression",
+            "Type III",
+            "Van Belleghem",
+            "scale cell",
+            "wing patterns",
+            "melpomene melpomene",
+            "colour pattern",
+            "yellow scales"
+        ]
+    },
+    {
+        "id": "elife-09520-v2",
+        "title": "Mapping residual transmission for malaria elimination",
+        "keywords": [
+            "malaria cases",
+            "malaria transmission",
+            "imported cases",
+            "local cases",
+            "local transmission",
+            "malariogenic potential",
+            "endemic transmission",
+            "imported malaria",
+            "Swaziland imported",
+            "local malaria"
+        ]
+    },
+    {
+        "id": "elife-23232-v4",
+        "title": "Dynamic modulation of decision biases by brainstem arousal systems",
+        "keywords": [
+            "figure supplement",
+            "high TPR",
+            "TPR trials",
+            "Figure",
+            "fMRI responses",
+            "TPR bin",
+            "phasic arousal",
+            "decision bias",
+            "TPR time",
+            "low TPR"
+        ]
+    },
+    {
+        "id": "elife-07192-v1",
+        "title": "Optogenetic feedback control of neural activity",
+        "keywords": [
+            "firing rate",
+            "figure supplement",
+            "firing levels",
+            "network firing",
+            "target rate",
+            "rate control",
+            "target firing",
+            "feedback control",
+            "control signals",
+            "closed-loop control"
+        ]
+    },
+    {
+        "id": "elife-22013-v2",
+        "title": "Boundary Dpp promotes growth of medial and lateral regions of the Drosophila wing",
+        "keywords": [
+            "wing discs",
+            "wing pouch",
+            "wing disc",
+            "figure supplement",
+            "dpp depletion",
+            "instar wing",
+            "Dpp expression",
+            "wing growth",
+            "wing size",
+            "adult wings"
+        ]
+    },
+    {
+        "id": "elife-03421-v1",
+        "title": "Intact protein folding in the glutathione-depleted endoplasmic reticulum implicates alternative protein thiol reductants",
+        "keywords": [
+            "reduced glutathione",
+            "oxidized glutathione",
+            "cellular glutathione",
+            "glutathione levels",
+            "figure supplement",
+            "glutathione depletion",
+            "reduced PDI",
+            "HeLa cells",
+            "expression plasmids",
+            "mammalian cells"
+        ]
+    },
+    {
+        "id": "elife-28672-v2",
+        "title": "HMMR acts in the PLK1-dependent spindle positioning pathway and supports neural development",
+        "keywords": [
+            "cell division",
+            "HMMR-silenced cells",
+            "HeLa cells",
+            "figure supplement",
+            "mitotic cells",
+            "cell lysates",
+            "mitotic spindle",
+            "targeting HMMR",
+            "spindle positioning",
+            "N-terminal Hmmr"
+        ]
+    },
+    {
+        "id": "elife-48847-v2",
+        "title": "A single H/ACA small nucleolar RNA mediates tumor suppression downstream of oncogenic RAS",
+        "keywords": [
+            "figure supplement",
+            "HCC cells",
+            "ACA snoRNAs",
+            "human HCC",
+            "HCC cell",
+            "Figure",
+            "liver cancer",
+            "cancer cells",
+            "SnoRNA expression",
+            "pseudouridine modifications"
+        ]
+    },
+    {
+        "id": "elife-45396-v2",
+        "title": "Translation affects mRNA stability in a codon-dependent manner in human cells",
+        "keywords": [
+            "figure supplement",
+            "mRNA stability",
+            "non-optimal codons",
+            "Figure",
+            "mRNAs enriched",
+            "codon optimality",
+            "codon composition",
+            "optimal codons",
+            "affects mRNA",
+            "human cells"
+        ]
+    },
+    {
+        "id": "elife-53449-v2",
+        "title": "Germline burden of rare damaging variants negatively affects human healthspan and lifespan",
+        "keywords": [
+            "Ultra-rare PTVs",
+            "PTV burden",
+            "UKB cohort",
+            "rare PTVs",
+            "somatic PTV",
+            "UKB subjects",
+            "UKBBN cohort",
+            "PTV number",
+            "UKB individuals",
+            "UKB population"
+        ]
+    },
+    {
+        "id": "elife-04123-v2",
+        "title": "Phase transitions of multivalent proteins can promote clustering of membrane receptors",
+        "keywords": [
+            "figure supplement",
+            "p-Nephrin clusters",
+            "Nck concentration",
+            "Nephrin clusters",
+            "Nck",
+            "N-WASP clusters",
+            "p-Nephrin density",
+            "Nck shows",
+            "Nck protein",
+            "proteins Nck"
+        ]
+    },
+    {
+        "id": "elife-25762-v1",
+        "title": "Pervasive epigenetic effects of Drosophila euchromatic transposable elements impact their evolution",
+        "keywords": [
+            "epigenetic effects",
+            "figure supplement",
+            "epigenetic marks",
+            "repressive epigenetic",
+            "euchromatic TEs",
+            "population frequencies",
+            "epigenetic states",
+            "Zambian population",
+            "adjacent TEs",
+            "stronger epigenetic"
+        ]
+    },
+    {
+        "id": "elife-41690-v2",
+        "title": "Discovering and deciphering relationships across disparate data modalities",
+        "keywords": [
+            "Mgc",
+            "optimal scale",
+            "figure supplement",
+            "Mgc test",
+            "maximum Mgc",
+            "sample size",
+            "Mgc statistic",
+            "Mgc require",
+            "metric choices",
+            "multiple Mgc"
+        ]
+    },
+    {
+        "id": "elife-37854-v2",
+        "title": "A novel pathway of LPS uptake through syndecan-1 leading to pyroptotic cell death",
+        "keywords": [
+            "LLC cells",
+            "figure supplement",
+            "LLC cell",
+            "cancer cells",
+            "Figure",
+            "Fisher Scientific",
+            "Thermo Fisher",
+            "cell death",
+            "cell surface",
+            "LPS"
+        ]
+    },
+    {
+        "id": "elife-12034-v1",
+        "title": "The tumor suppressor PTEN and the PDK1 kinase regulate formation of the columnar neural epithelium",
+        "keywords": [
+            "neural plate",
+            "Pten neural",
+            "PTEN mutant",
+            "Epi embryos",
+            "Pten embryos",
+            "figure supplement",
+            "cephalic neural",
+            "Epi mutant",
+            "mutant neural",
+            "Epi neural"
+        ]
+    },
+    {
+        "id": "elife-28951-v2",
+        "title": "A predictive model of asymmetric morphogenesis from 3D reconstructions of mouse heart looping dynamics",
+        "keywords": [
+            "heart tube",
+            "Heart looping",
+            "dorsal mesocardium",
+            "venous pole",
+            "arterial pole",
+            "figure supplement",
+            "mutant hearts",
+            "left-right asymmetries",
+            "heart shape",
+            "heart poles"
+        ]
+    },
+    {
+        "id": "elife-13051-v2",
+        "title": "A continuum model of transcriptional bursting",
+        "keywords": [
+            "initiation rate",
+            "figure supplement",
+            "spot intensity",
+            "state model",
+            "elongation rate",
+            "rate states",
+            "initiation states",
+            "transcription spot",
+            "transcription site",
+            "experimental data"
+        ]
+    },
+    {
+        "id": "elife-60579-v2",
+        "title": "SON and SRRM2 are essential for nuclear speckle formation",
+        "keywords": [
+            "Thermo Fisher",
+            "Fisher Scientific",
+            "figure supplement",
+            "Scientific Catalog",
+            "Catalog Number",
+            "Figure",
+            "cell lines",
+            "human cells",
+            "results show",
+            "kDa band"
+        ]
+    },
+    {
+        "id": "elife-59629-v2",
+        "title": "Use of signals of positive and negative selection to distinguish cancer genes and passenger genes",
+        "keywords": [
+            "cancer genes",
+            "Supplementary file",
+            "somatic mutations",
+            "driver genes",
+            "selected genes",
+            "negative selection",
+            "driver mutations",
+            "purifying selection",
+            "positive selection",
+            "genes identified"
+        ]
+    },
+    {
+        "id": "elife-25328-v3",
+        "title": "The laminar organization of the Drosophila ellipsoid body is semaphorin-dependent and prevents the formation of ectopic synaptic connections",
+        "keywords": [
+            "figure supplement",
+            "neuron axons",
+            "axon lamination",
+            "Figure",
+            "ring neurons",
+            "neuron dendrites",
+            "neuron types",
+            "axon arbors",
+            "neurons",
+            "Scale bars"
+        ]
+    },
+    {
+        "id": "elife-24487-v2",
+        "title": "Structural basis of protein translocation by the Vps4-Vta1 AAA ATPase",
+        "keywords": [
+            "figure supplement",
+            "AAA ATPase",
+            "small AAA",
+            "ATPase domain",
+            "pore loop",
+            "ESCRT-III subunits",
+            "ESCRT-III peptide",
+            "Figure",
+            "MIT domain",
+            "subunit pairs"
+        ]
+    },
+    {
+        "id": "elife-03273-v2",
+        "title": "DNA binding polarity, dimerization, and ATPase ring remodeling in the CMG helicase of the eukaryotic replisome",
+        "keywords": [
+            "CMG formation",
+            "CMG complex",
+            "Mcm N-terminal",
+            "CMG particles",
+            "single-stranded DNA",
+            "CMG",
+            "DNA binding",
+            "DNA-bound CMG",
+            "N-terminal domains",
+            "DNA substrate"
+        ]
+    },
+    {
+        "id": "elife-05338-v1",
+        "title": "A library of MiMICs allows tagging of genes and reversible, spatial and temporal knockdown of proteins in Drosophila",
+        "keywords": [
+            "GFP expression",
+            "anti GFP",
+            "protein expression",
+            "figure supplement",
+            "MiMIC insertions",
+            "tagged genes",
+            "protein trap",
+            "expression patterns",
+            "gene trap",
+            "instar larvae"
+        ]
+    },
+    {
+        "id": "elife-16370-v2",
+        "title": "DPP9 is a novel component of the N-end rule pathway targeting the tyrosine kinase Syk",
+        "keywords": [
+            "Syk N-terminus",
+            "PLA signals",
+            "HeLa cells",
+            "cells treated",
+            "control cells",
+            "Syk",
+            "phosphorylated Syk",
+            "Syk stability",
+            "Syk signalling",
+            "cells shown"
+        ]
+    },
+    {
+        "id": "elife-24459-v2",
+        "title": "Emergence of visually-evoked reward expectation signals in dopamine neurons via the superior colliculus in V1 lesioned monkeys",
+        "keywords": [
+            "visual field",
+            "figure supplement",
+            "Pavlovian conditioning",
+            "Licking rates",
+            "lesion-affected visual",
+            "intact visual",
+            "panel Figure",
+            "conditioned response",
+            "firing rate",
+            "visual processing"
+        ]
+    },
+    {
+        "id": "elife-35213-v1",
+        "title": "Synergy in anti-malarial pre-erythrocytic and transmission-blocking antibodies is achieved by reducing parasite density",
+        "keywords": [
+            "TBV antibody",
+            "PEV antibody",
+            "parasite density",
+            "TBV dose",
+            "TBV antibodies",
+            "PEV antibodies",
+            "antibody dose",
+            "Prevalence efficacy",
+            "PEV vaccines",
+            "Development Team"
+        ]
+    },
+    {
+        "id": "elife-35720-v2",
+        "title": "Structure of the chromatin remodelling enzyme Chd1 bound to a ubiquitinylated nucleosome",
+        "keywords": [
+            "figure supplement",
+            "linker DNA",
+            "nucleosomal DNA",
+            "DNA binding",
+            "unwrapped DNA",
+            "ATPase domains",
+            "DNA unwrapping",
+            "DNA",
+            "ATPase lobe",
+            "DNA sequence"
+        ]
+    },
+    {
+        "id": "elife-02130-v2",
+        "title": "A micro-epidemiological analysis of febrile malaria in Coastal Kenya showing hotspots within hotspots",
+        "keywords": [
+            "spatial scales",
+            "figure supplement",
+            "average age",
+            "febrile malaria",
+            "malaria positive",
+            "Malaria transmission",
+            "high MPF",
+            "simulated data",
+            "malaria control",
+            "transmission homesteads"
+        ]
+    },
+    {
+        "id": "elife-09419-v2",
+        "title": "The chemokine CXCL13 in lung cancers associated with environmental polycyclic aromatic hydrocarbons pollution",
+        "keywords": [
+            "figure supplement",
+            "lung cancer",
+            "cancer cells",
+            "lung tissues",
+            "Figure",
+            "tumor samples",
+            "lung tumor",
+            "cell lung",
+            "mice treated",
+            "HPR patients"
+        ]
+    },
+    {
+        "id": "elife-10163-v2",
+        "title": "Mouse V1 population correlates of visual detection rely on heterogeneity within neuronal response patterns",
+        "keywords": [
+            "figure supplement",
+            "miss trials",
+            "population activity",
+            "population heterogeneity",
+            "population responses",
+            "hit trials",
+            "neuronal population",
+            "preferred population",
+            "stimulus detection",
+            "visual stimulus"
+        ]
+    },
+    {
+        "id": "elife-06726-v2",
+        "title": "The hormonal peptide Elabela guides angioblasts to the midline during vasculogenesis",
+        "keywords": [
+            "angioblast migration",
+            "ela expression",
+            "figure supplement",
+            "mutant embryos",
+            "midline migration",
+            "zebrafish embryos",
+            "midline ela",
+            "Vegfa signaling",
+            "Ela overexpressing",
+            "donor angioblasts"
+        ]
+    },
+    {
+        "id": "elife-04581-v2",
+        "title": "Developmental mechanism of the periodic membrane skeleton in axons",
+        "keywords": [
+            "βII spectrin",
+            "figure supplement",
+            "STORM image",
+            "periodic lattice",
+            "lattice structure",
+            "periodic structure",
+            "periodic βII",
+            "STORM imaging",
+            "periodic membrane",
+            "Alexa Fluor"
+        ]
+    },
+    {
+        "id": "elife-02981-v1",
+        "title": "Nuclear envelope protein MAN1 regulates clock through BMAL1",
+        "keywords": [
+            "figure supplement",
+            "protein levels",
+            "nuclear envelope",
+            "mRNA levels",
+            "DNA binding",
+            "One-way ANOVA",
+            "Cells transfected",
+            "LBR expression",
+            "circadian clock",
+            "represent SEM"
+        ]
+    },
+    {
+        "id": "elife-01462-v1",
+        "title": "Hypothalamic melanin concentrating hormone neurons communicate the nutrient value of sugar",
+        "keywords": [
+            "MCH neurons",
+            "figure supplement",
+            "sucrose preference",
+            "control mice",
+            "MCH",
+            "Figure",
+            "light stimulation",
+            "MCH-ablated mice",
+            "MCH activation",
+            "ablated MCH"
+        ]
+    },
+    {
+        "id": "elife-24119-v2",
+        "title": "Toxoplasma gondii F-actin forms an extensive filamentous network required for material exchange and parasite maturation",
+        "keywords": [
+            "parasite F-actin",
+            "F-actin dynamics",
+            "parasite actin",
+            "Scale bar",
+            "F-actin filaments",
+            "individual parasites",
+            "actin dynamics",
+            "F-actin network",
+            "parasites expressing",
+            "actin filaments"
+        ]
+    },
+    {
+        "id": "elife-02265-v2",
+        "title": "Atoh1-dependent rhombic lip neurons are required for temporal delay between independent respiratory oscillators in embryonic mice",
+        "keywords": [
+            "RTN neurons",
+            "lumbar output",
+            "Cervical bursts",
+            "lumbar motor",
+            "cervical output",
+            "figure supplement",
+            "respiratory output",
+            "respiratory motor",
+            "motor output",
+            "VII motor"
+        ]
+    },
+    {
+        "id": "elife-32847-v2",
+        "title": "Diversification of heart progenitor cells by EGF signaling and differential modulation of ETS protein activity",
+        "keywords": [
+            "figure supplement",
+            "pnt mutants",
+            "edl mutants",
+            "EGF signaling",
+            "Figure",
+            "MAPK signaling",
+            "Doc expression",
+            "gCB progenitors",
+            "edl expression",
+            "tin expression"
+        ]
+    },
+    {
+        "id": "elife-34959-v2",
+        "title": "Co-translational protein targeting facilitates centrosomal recruitment of PCNT during centrosome maturation in vertebrates",
+        "keywords": [
+            "PCNT mRNA",
+            "PCNT proteins",
+            "pcnt mRNAs",
+            "PCNT polypeptides",
+            "translating PCNT",
+            "nascent PCNT",
+            "PCNT polysomes",
+            "PCNT",
+            "PCNT smFISH",
+            "figure supplement"
+        ]
+    },
+    {
+        "id": "elife-24059-v2",
+        "title": "Longevity is impacted by growth hormone action during early postnatal period",
+        "keywords": [
+            "dwarf mice",
+            "control mice",
+            "Ames dwarf",
+            "male mice",
+            "mice groups",
+            "littermate control",
+            "mice",
+            "GH-treated dwarf",
+            "mutant mice",
+            "male Ames"
+        ]
+    },
+    {
+        "id": "elife-64056-v1",
+        "title": "Molecular insights into substrate recognition and discrimination by the N-terminal domain of Lon AAA+ protease",
+        "keywords": [
+            "figure supplement",
+            "MtaLonA NTD",
+            "protein substrates",
+            "hydrophobic residues",
+            "Figure",
+            "full-length MtaLonA",
+            "LonA NTDs",
+            "NTD",
+            "NMR experiments",
+            "ClpB NTD"
+        ]
+    },
+    {
+        "id": "elife-65924-v2",
+        "title": "A mobile genetic element increases bacterial host fitness by manipulating development",
+        "keywords": [
+            "host cells",
+            "cargo genes",
+            "host cell",
+            "selective advantage",
+            "mobile elements",
+            "mobile genetic",
+            "genetic elements",
+            "relative fitness",
+            "DSM agar",
+            "agar plates"
+        ]
+    },
+    {
+        "id": "elife-02020-v1",
+        "title": "Diagnostically relevant facial gestalt information from ordinary photos",
+        "keywords": [
+            "Face Phenotype",
+            "Clinical Face",
+            "Phenotype Space",
+            "figure supplement",
+            "feature points",
+            "face mesh",
+            "average face",
+            "face space",
+            "query face",
+            "feature space"
+        ]
+    },
+    {
+        "id": "elife-32311-v1",
+        "title": "A quantitative approach for analyzing the spatio-temporal distribution of 3D intracellular events in fluorescence microscopy",
+        "keywords": [
+            "cell periphery",
+            "unconstrained cells",
+            "disk-shaped cells",
+            "cell",
+            "cells",
+            "cell shape",
+            "cell center",
+            "crossbow-shaped cells",
+            "Figure",
+            "Cytoo Cell"
+        ]
+    },
+    {
+        "id": "elife-02020-v1",
+        "title": "Diagnostically relevant facial gestalt information from ordinary photos",
+        "keywords": [
+            "Face Phenotype",
+            "Clinical Face",
+            "Phenotype Space",
+            "figure supplement",
+            "feature points",
+            "face mesh",
+            "average face",
+            "face space",
+            "query face",
+            "feature space"
+        ]
+    },
+    {
+        "id": "elife-32311-v1",
+        "title": "A quantitative approach for analyzing the spatio-temporal distribution of 3D intracellular events in fluorescence microscopy",
+        "keywords": [
+            "cell periphery",
+            "unconstrained cells",
+            "disk-shaped cells",
+            "cell",
+            "cells",
+            "cell shape",
+            "cell center",
+            "crossbow-shaped cells",
+            "Figure",
+            "Cytoo Cell"
+        ]
+    },
+    {
+        "id": "elife-22526-v2",
+        "title": "The neuropeptide F/nitric oxide pathway is essential for shaping locomotor plasticity underlying locust phase transition",
+        "keywords": [
+            "G-phase locusts",
+            "figure supplement",
+            "NOS activity",
+            "NOS transcript",
+            "NOS protein",
+            "NOS phosphorylation",
+            "transcript knockdown",
+            "transcript levels",
+            "NOS mRNA",
+            "S-phase locust"
+        ]
+    },
+    {
+        "id": "elife-00675-v1",
+        "title": "Temporal transcriptional response to ethylene gas drives growth hormone cross-regulation in Arabidopsis",
+        "keywords": [
+            "figure supplement",
+            "ethylene transcriptional",
+            "ethylene response",
+            "transcriptional response",
+            "ethylene treatment",
+            "candidate targets",
+            "response genes",
+            "ethylene gas",
+            "Figure",
+            "Supplementary file"
+        ]
+    },
+    {
+        "id": "elife-05607-v2",
+        "title": "The genetic architecture of NAFLD among inbred strains of mice",
+        "keywords": [
+            "hepatic steatosis",
+            "gene expression",
+            "adipose tissue",
+            "hepatic genes",
+            "expression levels",
+            "Hepatic expression",
+            "candidate genes",
+            "hepatic lipids",
+            "hepatic",
+            "insulin resistance"
+        ]
+    },
+    {
+        "id": "elife-41038-v2",
+        "title": "Drought adaptation in Arabidopsis thaliana by extensive genetic loss-of-function",
+        "keywords": [
+            "flowering time",
+            "drought timing",
+            "LoF alleles",
+            "figure supplement",
+            "Supplementary file",
+            "spring drought",
+            "allele associations",
+            "summer drought",
+            "drought environments",
+            "Arabidopsis ecotypes"
+        ]
+    },
+    {
+        "id": "elife-29797-v2",
+        "title": "Neuromodulatory connectivity defines the structure of a behavioral neural network",
+        "keywords": [
+            "Phase III",
+            "CCAP neurons",
+            "Rk-expressing neurons",
+            "pupal ecdysis",
+            "motor neurons",
+            "VNC-Rk neurons",
+            "neuron activity",
+            "ETHRA neurons",
+            "phase",
+            "CPG neurons"
+        ]
+    },
+    {
+        "id": "elife-05521-v2",
+        "title": "Hematopoietic stem and progenitor cells regulate the regeneration of their niche by secreting Angiopoietin-1",
+        "keywords": [
+            "bone marrow",
+            "figure supplement",
+            "marrow cells",
+            "GFP mice",
+            "LSK cells",
+            "stromal cells",
+            "endothelial cells",
+            "hematopoietic cells",
+            "LSK cell",
+            "independent experiments"
+        ]
+    },
+    {
+        "id": "elife-07090-v2",
+        "title": "Interplay of cell dynamics and epithelial tension during morphogenesis of the Drosophila pupal wing",
+        "keywords": [
+            "tissue shear",
+            "wing blade",
+            "cell elongation",
+            "figure supplement",
+            "cell area",
+            "cell divisions",
+            "shear rate",
+            "cell shape",
+            "cellular contributions",
+            "blade area"
+        ]
+    },
+    {
+        "id": "elife-32510-v1",
+        "title": "Pauses in cholinergic interneuron firing exert an inhibitory control on striatal output in vivo",
+        "keywords": [
+            "CIN firing",
+            "firing rate",
+            "One-way ANOVA",
+            "figure supplement",
+            "Repeated Measure",
+            "membrane potential",
+            "Measure One-way",
+            "SPNs firing",
+            "rebound firing",
+            "firing activity"
+        ]
+    },
+    {
+        "id": "elife-03255-v2",
+        "title": "High temperature sensitivity is intrinsic to voltage-gated potassium channels",
+        "keywords": [
+            "TRP channels",
+            "Shaker channel",
+            "voltage dependence",
+            "channel activation",
+            "Shaker ILT",
+            "voltage range",
+            "temperature sensitivity",
+            "temperature-sensitive TRP",
+            "ILT channels",
+            "heat activation"
+        ]
+    },
+    {
+        "id": "elife-31662-v2",
+        "title": "Functional role of the type 1 pilus rod structure in mediating host-pathogen interactions",
+        "keywords": [
+            "figure supplement",
+            "pilus rod",
+            "UPEC strains",
+            "FimA sequences",
+            "FimA protein",
+            "FimA rod",
+            "fimA gene",
+            "FimA residues",
+            "fimA mutant",
+            "protein sequences"
+        ]
+    },
+    {
+        "id": "elife-00105-v1",
+        "title": "Dendritic cells loaded with FK506 kill T cells in an antigen-specific manner and prevent autoimmunity in vivo",
+        "keywords": [
+            "mice treated",
+            "cells cultured",
+            "FKDC supernatants",
+            "cells stimulated",
+            "FKDC treated",
+            "cell death",
+            "cell activation",
+            "FKDC",
+            "arthritis severity",
+            "cell IFNγ"
+        ]
+    },
+    {
+        "id": "elife-23172-v2",
+        "title": "Ambra1 spatially regulates Src activity and Src/FAK-mediated cancer cell invasion via trafficking networks",
+        "keywords": [
+            "active Src",
+            "focal adhesions",
+            "SCC cells",
+            "SCC FAK-WT",
+            "SCC FAK",
+            "figure supplement",
+            "Error bars",
+            "FAK",
+            "cell adhesion",
+            "cell lysates"
+        ]
+    },
+    {
+        "id": "elife-14694-v1",
+        "title": "Tau and spectraplakins promote synapse formation and maintenance through Jun kinase and neuronal trafficking",
+        "keywords": [
+            "figure supplement",
+            "mutant neurons",
+            "shot-tau mutant",
+            "Drosophila neurons",
+            "Primary neurons",
+            "mutant embryos",
+            "Figure",
+            "primary Drosophila",
+            "significant PMW",
+            "tau mutant"
+        ]
+    },
+    {
+        "id": "elife-41331-v2",
+        "title": "Distinct RanBP1 nuclear export and cargo dissociation mechanisms between fungi and animals",
+        "keywords": [
+            "figure supplement",
+            "nuclear export",
+            "trimeric complex",
+            "yeast Ran",
+            "cargo dissociation",
+            "yeast proteins",
+            "Figure",
+            "NES groove",
+            "tetrameric complex",
+            "NES binding"
+        ]
+    },
+    {
+        "id": "elife-42646-v2",
+        "title": "Retinal stem cells modulate proliferative parameters to coordinate post-embryonic morphogenesis in the eye of fish",
+        "keywords": [
+            "stem cells",
+            "figure supplement",
+            "stem cell",
+            "cell division",
+            "growth mode",
+            "CMZ stem",
+            "Figure",
+            "responder growth",
+            "RPE stem",
+            "RPE cells"
+        ]
+    },
+    {
+        "id": "elife-58603-v2",
+        "title": "SARS-CoV-2 strategically mimics proteolytic activation of human ENaC",
+        "keywords": [
+            "cell types",
+            "Supplementary file",
+            "human ENaC-ɑ",
+            "million cells",
+            "host cell",
+            "single cell",
+            "epithelial cells",
+            "protease network",
+            "VIPR database",
+            "MEROPS database"
+        ]
+    },
+    {
+        "id": "elife-03496-v2",
+        "title": "Redox signaling via the molecular chaperone BiP protects cells against endoplasmic reticulum-derived oxidative stress",
+        "keywords": [
+            "BiP cysteine",
+            "BiP oxidation",
+            "oxidative stress",
+            "BiP activity",
+            "ATPase activity",
+            "oxidized BiP",
+            "wild-type cells",
+            "SMM Gal",
+            "sulfenic acid",
+            "ATP hydrolysis"
+        ]
+    },
+    {
+        "id": "elife-11123-v1",
+        "title": "Layer specific and general requirements for ERK/MAPK signaling in the developing neocortex",
+        "keywords": [
+            "MAPK signaling",
+            "figure supplement",
+            "spinal cord",
+            "projection neurons",
+            "corticospinal neurons",
+            "mutant mice",
+            "excitatory neurons",
+            "mutant neurons",
+            "scale bar",
+            "pyramidal neurons"
+        ]
+    },
+    {
+        "id": "elife-42262-v2",
+        "title": "Multiple decay events target HAC1 mRNA during splicing to regulate the unfolded protein response",
+        "keywords": [
+            "UPR activation",
+            "kinase-mediated decay",
+            "RNA ligase",
+            "Figure",
+            "RNA decay",
+            "tunicamycin treatment",
+            "splicing intermediates",
+            "total RNA",
+            "RNA repair",
+            "UPR regulation"
+        ]
+    },
+    {
+        "id": "elife-56840-v2",
+        "title": "True S-cones are concentrated in the ventral mouse retina and wired for color detection in the upper visual field",
+        "keywords": [
+            "true S-cones",
+            "ventral retina",
+            "dorsal retina",
+            "figure supplement",
+            "mouse retina",
+            "S-cone bipolar",
+            "S-cone pedicles",
+            "Supplementary file",
+            "cone types",
+            "mixed cones"
+        ]
+    },
+    {
+        "id": "elife-16813-v3",
+        "title": "A model for regulation by SynGAP-α1 of binding of synaptic proteins to PDZ-domain 'Slots' in the postsynaptic density",
+        "keywords": [
+            "PDZ domains",
+            "PDZ ligand",
+            "PDZ binding",
+            "domain binding",
+            "Life Sciences",
+            "Healthcare Life",
+            "binding site",
+            "PDZ",
+            "recombinant PDZ",
+            "affinity resin"
+        ]
+    },
+    {
+        "id": "elife-03790-v1",
+        "title": "Role of SAGA in the asymmetric segregation of DNA circles during yeast ageing",
+        "keywords": [
+            "DNA circles",
+            "mother cell",
+            "mutant cells",
+            "non-chromosomal DNA",
+            "circle retention",
+            "cells expressing",
+            "wild-type cells",
+            "cells lacking",
+            "SAGA function",
+            "cells"
+        ]
+    },
+    {
+        "id": "elife-00932-v1",
+        "title": "Conceptual metaphorical mapping in chimpanzees (Pan troglodytes)",
+        "keywords": [
+            "low-ranked participants",
+            "low-ranked individuals",
+            "response latencies",
+            "high-ranked individuals",
+            "stimulus sets",
+            "incoherent trials",
+            "high-ranked participants",
+            "response facilitation",
+            "social status",
+            "social rank"
+        ]
+    },
+    {
+        "id": "elife-04266-v1",
+        "title": "Antibacterial gene transfer across the tree of life",
+        "keywords": [
+            "figure supplement",
+            "lysozyme gene",
+            "boonei lysozyme",
+            "muramidase domain",
+            "HGT tree",
+            "Bayesian phylogeny",
+            "HGT events",
+            "Bayesian tree",
+            "parallel HGT",
+            "interdomain HGT"
+        ]
+    },
+    {
+        "id": "elife-06073-v2",
+        "title": "The chromatin remodelers RSC and ISW1 display functional and chromatin-based promoter antagonism",
+        "keywords": [
+            "figure supplement",
+            "RSC loss",
+            "RSC function",
+            "RSC mutations",
+            "RSC occupancy",
+            "gene clusters",
+            "RSC mutants",
+            "RSC",
+            "RSC activity",
+            "chromatin remodelers"
+        ]
+    },
+    {
+        "id": "elife-01581-v1",
+        "title": "Endogenous RNA interference is driven by copy number",
+        "keywords": [
+            "antisense RNA",
+            "total RNA",
+            "figure supplement",
+            "RNA abundance",
+            "RNA interference",
+            "copy number",
+            "interfering RNA",
+            "coding RNAs",
+            "RNA",
+            "sense RNA"
+        ]
+    },
+    {
+        "id": "elife-73012-v1",
+        "title": "Effects of IFIH1 rs1990760 variants on systemic inflammation and outcome in critically ill COVID-19 patients in an observational translational study",
+        "keywords": [
+            "figure supplement",
+            "gene expression",
+            "inflammatory response",
+            "Supplementary file",
+            "viral clearance",
+            "ICU admission",
+            "ill patients",
+            "cell populations",
+            "patients",
+            "Working Group"
+        ]
+    },
+    {
+        "id": "elife-44455-v1",
+        "title": "Elastic instability during branchial ectoderm development causes folding of the Chlamydosaurus erectile frill",
+        "keywords": [
+            "dragon frill",
+            "skin sheet",
+            "Figure",
+            "convex ridges",
+            "Chlamydosaurus frill",
+            "anterior skin",
+            "figure supplement",
+            "frilled dragon",
+            "connective tissue",
+            "frill surface"
+        ]
+    },
+    {
+        "id": "elife-08160-v2",
+        "title": "The vacuole/lysosome is required for cell-cycle progression",
+        "keywords": [
+            "figure supplement",
+            "double mutant",
+            "Vacuole inheritance",
+            "Figure",
+            "KanMXThis studyFigure",
+            "mother cells",
+            "daughter cells",
+            "vacuole size",
+            "functional vacuole",
+            "mutant cells"
+        ]
+    },
+    {
+        "id": "elife-01239-v1",
+        "title": "A diversity of localized timescales in network activity",
+        "keywords": [
+            "localized eigenvectors",
+            "local connectivity",
+            "Sample eigenvectors",
+            "network activity",
+            "eigenvectors",
+            "eigenvectors shown",
+            "linear networks",
+            "Supplementary file",
+            "figure supplement",
+            "eigenvector position"
+        ]
+    },
+    {
+        "id": "elife-07969-v2",
+        "title": "Mapping influenza transmission in the ferret model to transmission in humans",
+        "keywords": [
+            "ferret SAR",
+            "SAR estimates",
+            "Human SAR",
+            "droplet SAR",
+            "figure supplement",
+            "ferret transmission",
+            "ferret respiratory",
+            "respiratory droplet",
+            "contact SAR",
+            "direct contact"
+        ]
+    },
+    {
+        "id": "elife-41520-v1",
+        "title": "Perineuronal nets control visual input via thalamic recruitment of cortical PV interneurons",
+        "keywords": [
+            "figure supplement",
+            "Supplementary file",
+            "cortical plasticity",
+            "adult mice",
+            "PNN removal",
+            "PNN accumulation",
+            "PNN degradation",
+            "visual cortex",
+            "adult animals",
+            "PNN disruption"
+        ]
+    },
+    {
+        "id": "elife-71811-v2",
+        "title": "Relationships between community composition, productivity and invasion resistance in semi-natural bacterial microcosms",
+        "keywords": [
+            "invasion resistance",
+            "invader survival",
+            "community composition",
+            "community productivity",
+            "Functional Group",
+            "resident community",
+            "Microbial communities",
+            "starting composition",
+            "natural communities",
+            "microbial invasion"
+        ]
+    },
+    {
+        "id": "elife-63954-v1",
+        "title": "Risk of motor vehicle collisions after methadone use",
+        "keywords": [
+            "motor vehicle",
+            "vehicle collisions",
+            "receiving MMT",
+            "opiate users",
+            "collision risk",
+            "MMT group",
+            "World Health",
+            "Health Organization",
+            "users receiving",
+            "MMT patients"
+        ]
+    },
+    {
+        "id": "elife-15175-v1",
+        "title": "Diagnostic potential of tumor DNA from ovarian cyst fluid",
+        "keywords": [
+            "cyst fluids",
+            "ovarian cysts",
+            "Ovarian cancer",
+            "borderline tumors",
+            "cyst DNA",
+            "cyst type",
+            "Non-neoplastic cysts",
+            "Ovarian tumors",
+            "Supplementary file",
+            "benign tumors"
+        ]
+    },
+    {
+        "id": "elife-32904-v1",
+        "title": "Proprioceptive and cutaneous sensations in humans elicited by intracortical microstimulation",
+        "keywords": [
+            "cutaneous responses",
+            "proprioceptive sensations",
+            "cutaneous sensations",
+            "proprioceptive responses",
+            "reported sensations",
+            "Receptive fields",
+            "current amplitude",
+            "upper arm",
+            "sensation modality",
+            "stimulation parameters"
+        ]
+    },
+    {
+        "id": "elife-02009-v2",
+        "title": "Transport of soluble proteins through the Golgi occurs by diffusion via continuities across cisternae",
+        "keywords": [
+            "Golgi stack",
+            "figure supplement",
+            "Golgi area",
+            "albumin transport",
+            "Golgi cisternae",
+            "Golgi vesicles",
+            "Golgi complex",
+            "Golgi tubules",
+            "Golgi",
+            "Golgi membranes"
+        ]
+    },
+    {
+        "id": "elife-30743-v2",
+        "title": "Gene-free methodology for cell fate dynamics during development",
+        "keywords": [
+            "EGF levels",
+            "Notch signaling",
+            "EGF level",
+            "fate plane",
+            "EGF signaling",
+            "Notch ligands",
+            "Notch activity",
+            "ectopic Notch",
+            "figure supplement",
+            "Notch signal"
+        ]
+    },
+    {
+        "id": "elife-04418-v1",
+        "title": "Real-time observation of signal recognition particle binding to actively translating ribosomes",
+        "keywords": [
+            "SRP binding",
+            "figure supplement",
+            "binding events",
+            "SRP-RNC binding",
+            "signal sequence",
+            "nascent chain",
+            "translating RNCs",
+            "amino acids",
+            "SRP arrival",
+            "SRP"
+        ]
+    },
+    {
+        "id": "elife-51480-v1",
+        "title": "Novel insights into breast cancer copy number genetic heterogeneity revealed by single-cell genome sequencing",
+        "keywords": [
+            "figure supplement",
+            "copy number",
+            "breast cancer",
+            "CNA heterogeneity",
+            "genetic heterogeneity",
+            "breast tumors",
+            "Figure",
+            "Cancer Genome",
+            "cancer cells",
+            "tumor samples"
+        ]
+    },
+    {
+        "id": "elife-02875-v2",
+        "title": "Specific polar subpopulations of astral microtubules control spindle orientation and symmetric neural stem cell division",
+        "keywords": [
+            "basal astrals",
+            "spindle orientation",
+            "cell cortex",
+            "neurogenic APs",
+            "astral microtubules",
+            "apical cell",
+            "cortical LGN",
+            "figure supplement",
+            "central astrals",
+            "basal cell"
+        ]
+    },
+    {
+        "id": "elife-19605-v3",
+        "title": "A host basal transcription factor is a key component for infection of rice by TALE-carrying bacteria",
+        "keywords": [
+            "figure supplement",
+            "Xoo strains",
+            "Xoo TALE",
+            "TFB regions",
+            "Xoo TALEs",
+            "gene expression",
+            "significant difference",
+            "TALE genes",
+            "Figure",
+            "transgenic plants"
+        ]
+    },
+    {
+        "id": "elife-51254-v3",
+        "title": "Gene regulatory network reconstruction using single-cell RNA sequencing of barcoded genotypes in diverse environments",
+        "keywords": [
+            "gene expression",
+            "figure supplement",
+            "cell cycle",
+            "GRN reconstruction",
+            "cell gene",
+            "scRNAseq data",
+            "expression data",
+            "single cell",
+            "network inference",
+            "global GRN"
+        ]
+    },
+    {
+        "id": "elife-12678-v1",
+        "title": "Dopamine regulates stimulus generalization in the human hippocampus",
+        "keywords": [
+            "stimulus generalization",
+            "model parameters",
+            "generalization test",
+            "generalization coefficients",
+            "generalization gradients",
+            "inhibitory generalization",
+            "amisulpride group",
+            "Prediction error",
+            "generalization model",
+            "excitatory generalization"
+        ]
+    },
+    {
+        "id": "elife-61965-v2",
+        "title": "Sustained TNF-α stimulation leads to transcriptional memory that greatly enhances signal sensitivity and robustness",
+        "keywords": [
+            "transcriptional memory",
+            "figure supplement",
+            "TNF-α treatment",
+            "inflammatory transcriptional",
+            "DNA demethylation",
+            "TNF-α induction",
+            "DNA methylation",
+            "memory genes",
+            "CALCB gene",
+            "Figure"
+        ]
+    },
+    {
+        "id": "elife-23647-v2",
+        "title": "Resource depletion through primate stone technology",
+        "keywords": [
+            "Koram Island",
+            "NomSao Island",
+            "prey species",
+            "stone tools",
+            "prey size",
+            "macaque stone",
+            "shellfish foraging",
+            "Koram",
+            "prey population",
+            "Koram macaque"
+        ]
+    },
+    {
+        "id": "elife-05105-v2",
+        "title": "A highly tunable dopaminergic oscillator generates ultradian rhythms of behavioral arousal",
+        "keywords": [
+            "locomotor activity",
+            "ultradian activity",
+            "Ultradian locomotor",
+            "activity rhythms",
+            "locomotor period",
+            "figure supplement",
+            "ultradian rhythm",
+            "locomotor rhythms",
+            "wheel activity",
+            "period lengthening"
+        ]
+    },
+    {
+        "id": "elife-02872-v2",
+        "title": "Cyclin D activates the Rb tumor suppressor by mono-phosphorylation",
+        "keywords": [
+            "cell cycle",
+            "DNA damage",
+            "figure supplement",
+            "Cdk site",
+            "TKO cyclin",
+            "Cdk sites",
+            "phase arrested",
+            "single Cdk",
+            "Rb-HA MEFs",
+            "ΔCdk Rb-HA"
+        ]
+    },
+    {
+        "id": "elife-45789-v2",
+        "title": "Transient protein accumulation at the center of the T cell antigen-presenting cell interface drives efficient IL-2 secretion",
+        "keywords": [
+            "cell activation",
+            "central LAT",
+            "LAT accumulation",
+            "LAT Vav",
+            "cell signaling",
+            "figure supplement",
+            "cell coupling",
+            "cell couples",
+            "costimulation blockade",
+            "interface accumulation"
+        ]
+    },
+    {
+        "id": "elife-62552-v3",
+        "title": "ß-arrestin 2 germline knockout does not attenuate opioid respiratory depression",
+        "keywords": [
+            "respiratory depression",
+            "attenuate OIRD",
+            "biased agonists",
+            "MOR agonists",
+            "MOR biased",
+            "OIRD",
+            "breathing rate",
+            "hypercapnic conditions",
+            "MOR G-protein",
+            "breathing parameters"
+        ]
+    },
+    {
+        "id": "elife-52278-v2",
+        "title": "Presynaptic developmental plasticity allows robust sparse wiring of the Drosophila mushroom body",
+        "keywords": [
+            "figure supplement",
+            "bouton number",
+            "claw number",
+            "Figure",
+            "mushroom body",
+            "bouton production",
+            "UAS DTA",
+            "olfactory PNs",
+            "individual PNs",
+            "Kenyon cell"
+        ]
+    },
+    {
+        "id": "elife-13429-v2",
+        "title": "Kinetics of initiating polypeptide elongation in an IRES-dependent system",
+        "keywords": [
+            "P-site bound",
+            "figure supplement",
+            "IRES complex",
+            "IRES structures",
+            "translocation step",
+            "FVKM-IRES complex",
+            "IRES complexes",
+            "Puromycin reaction",
+            "final concentration",
+            "protein synthesis"
+        ]
+    },
+    {
+        "id": "elife-32955-v2",
+        "title": "Structural basis of ribosomal peptide macrocyclization in plants",
+        "keywords": [
+            "figure supplement",
+            "active site",
+            "catalytic Cys",
+            "peptide macrocyclization",
+            "AEP catalytic",
+            "cyclic peptides",
+            "Figure",
+            "plant AEP",
+            "site Cys",
+            "human AEP"
+        ]
+    },
+    {
+        "id": "elife-39209-v1",
+        "title": "Reconstructing the functions of endosymbiotic Mollicutes in fungus-growing ants",
+        "keywords": [
+            "figure supplement",
+            "leaf-cutting ants",
+            "attine ants",
+            "Supplementary file",
+            "Mollicutes genomes",
+            "Mollicutes symbionts",
+            "ant species",
+            "ant workers",
+            "Figure",
+            "ant symbionts"
+        ]
+    },
+    {
+        "id": "elife-32660-v3",
+        "title": "Intracellular antibody signalling is regulated by phosphorylation of the Fc receptor TRIM21",
+        "keywords": [
+            "ubiquitination activity",
+            "figure supplement",
+            "RING dimerization",
+            "RING domain",
+            "TRIM proteins",
+            "Figure",
+            "RING binding",
+            "surface FcRs",
+            "TRIM RINGs",
+            "TRIM RING"
+        ]
+    },
+    {
+        "id": "elife-09460-v2",
+        "title": "Misaligned feeding impairs memories",
+        "keywords": [
+            "misaligned mice",
+            "misaligned feeding",
+            "aligned mice",
+            "mice subjected",
+            "figure supplement",
+            "scheduled feeding",
+            "Mice",
+            "misaligned groups",
+            "misaligned",
+            "food access"
+        ]
+    },
+    {
+        "id": "elife-20873-v2",
+        "title": "Deletion of the MAD2L1 spindle assembly checkpoint gene is tolerated in mouse models of acute T-cell lymphoma and hepatocellular carcinoma",
+        "keywords": [
+            "figure supplement",
+            "single cell",
+            "tumor cells",
+            "Figure",
+            "cell type",
+            "chromosome loss",
+            "HCC tumors",
+            "T-ALL samples",
+            "cell sequencing",
+            "HCC"
+        ]
+    },
+    {
+        "id": "elife-17505-v2",
+        "title": "Mapping transiently formed and sparsely populated conformations on a complex energy landscape",
+        "keywords": [
+            "free energy",
+            "figure supplement",
+            "energy landscape",
+            "conformational exchange",
+            "metadynamics simulations",
+            "triple mutant",
+            "energy surface",
+            "conformational free",
+            "force field",
+            "kcal mol"
+        ]
+    },
+    {
+        "id": "elife-38432-v2",
+        "title": "Immune-mediated hookworm clearance and survival of a marine mammal decrease with warmer ocean temperatures",
+        "keywords": [
+            "hookworm infection",
+            "hookworm disease",
+            "hookworm burden",
+            "Guafo Island",
+            "hookworm clearance",
+            "hookworm mortality",
+            "seal pups",
+            "maternal attendance",
+            "fur seal",
+            "source data"
+        ]
+    },
+    {
+        "id": "elife-34055-v2",
+        "title": "Cdc48-like protein of actinobacteria (Cpa) is a novel proteasome interactor in mycobacteria and related organisms",
+        "keywords": [
+            "figure supplement",
+            "cpa gene",
+            "mycobacterial Cpa",
+            "cpa Msm",
+            "cpa cells",
+            "rhodococcal Cpa",
+            "Cpa",
+            "cpa genes",
+            "Msm cpa",
+            "Cpa protein"
+        ]
+    },
+    {
+        "id": "elife-22644-v1",
+        "title": "Microbial consortia at steady supply",
+        "keywords": [
+            "cell types",
+            "population dynamics",
+            "metabolic networks",
+            "optimal metabolic",
+            "metabolic strategies",
+            "optimal cell",
+            "distinct cell",
+            "metabolic types",
+            "supply fluctuations",
+            "microbial communities"
+        ]
+    },
+    {
+        "id": "elife-24661-v2",
+        "title": "Mechanotransduction current is essential for stability of the transducing stereocilia in mammalian auditory hair cells",
+        "keywords": [
+            "MET channels",
+            "MET current",
+            "OHC stereocilia",
+            "MET blockers",
+            "transducing stereocilia",
+            "stereocilia tips",
+            "row stereocilia",
+            "Corti explants",
+            "stereocilia bundles",
+            "second-row stereocilia"
+        ]
+    },
+    {
+        "id": "elife-05560-v2",
+        "title": "The prenyltransferase UBIAD1 is the target of geranylgeraniol in degradation of HMG CoA reductase",
+        "keywords": [
+            "figure supplement",
+            "reductase ERAD",
+            "figure legends",
+            "cells received",
+            "sterol-accelerated ERAD",
+            "Figure",
+            "Immunoblot analysis",
+            "cells",
+            "CoA reductase",
+            "reductase degradation"
+        ]
+    },
+    {
+        "id": "elife-06930-v1",
+        "title": "Endocrine remodelling of the adult intestine sustains reproduction in Drosophila",
+        "keywords": [
+            "figure supplement",
+            "Figure",
+            "Holm correction",
+            "intestinal remodelling",
+            "intestinal progenitors",
+            "SREBP RNAi",
+            "Met RNAi",
+            "LTP RNAi",
+            "gce RNAi",
+            "Female flies"
+        ]
+    },
+    {
+        "id": "elife-00861-v1",
+        "title": "A global change in RNA polymerase II pausing during the Drosophila midblastula transition",
+        "keywords": [
+            "MBT genes",
+            "Pre-MBT genes",
+            "MBT Pol",
+            "figure supplement",
+            "MBT gene",
+            "MBT active",
+            "MBT embryos",
+            "Pol IITSS",
+            "gene groups",
+            "pre-MBT Pol"
+        ]
     }
 ]
